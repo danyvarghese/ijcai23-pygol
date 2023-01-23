@@ -1,4 +1,4 @@
-This repository contains the experimental code and data for the paper: PyGol: Efficient Inductive Logic Programming using Meta Inverse Entailment from IJCAI 2023 (Submitted). 
+This repository contains the experimental code and data for the paper: **PyGol: Efficient Inductive Logic Programming using Meta Inverse Entailment** from IJCAI 2023 (Submitted). 
 
 This repository consists of the code and data used to run all the three experiments mentioned in the paper.
 
