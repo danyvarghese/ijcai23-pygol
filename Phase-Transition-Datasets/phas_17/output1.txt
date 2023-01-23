@@ -1,0 +1,53 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+200 examples loaded.
+100 positives, 100 negatives.
+400 examples loaded.
+200 positives, 200 negatives.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=44, PosScore=71 (71 new), NegScore=8 (8 new) Prec=89.9% (89.9% new)
+p(A):-
+   br0(A,B,C), br2(A,B,D), br16(A,D,E), br1(A,C,E), 
+   br1(A,C,B), br0(A,B,E), br1(A,E,D), br1(A,E,C), 
+   br2(A,C,E), br2(A,C,B), br2(A,E,D), br2(A,E,C), 
+   br2(A,B,C), br3(A,C,D), br3(A,C,B), br3(A,E,F), 
+   br3(A,E,D), br3(A,B,C), br3(A,B,E), br4(A,C,F), 
+   br4(A,C,B), br4(A,E,C), br4(A,E,B), br4(A,B,C), 
+   br5(A,C,D), br5(A,C,E), br5(A,E,B), br5(A,B,F), 
+   br5(A,B,E), br7(A,C,D), br11(A,C,D), br11(A,E,G), 
+   br12(A,C,F), br12(A,B,D), br16(A,B,D), br11(A,B,G), 
+   br1(A,G,E), br1(A,B,F), br1(A,F,B), br2(A,G,E), 
+   br1(A,B,D), br4(A,D,E), br14(A,G,B).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             71+/-0|              8+/-0|             79+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|             29+/-0|             92+/-0|            121+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            100+/-0|            100+/-0|            200+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 81.5% +/-0.0%
+Recall/Sensitivity: 71% +/-0.0% (% of correctly class. positive examples)
+Specificity: 92% +/-0.0% (% of correctly class. negative examples)
+Precision: 89.9% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 76% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.793 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.644 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
