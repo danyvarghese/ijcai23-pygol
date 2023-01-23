@@ -1,0 +1,739 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+GILPS settings
+
+Setting                                                Value
+
+maxneg                                                    10
+minpos                                                    10
+i                                                          2
+depth                                                     10
+clause_length                                              3
+cross_validation_folds                                    10
+verbose                                                    1
+theory_construction                                   global
+star_default_recall                                       10
+srmg_heuristic                                   first_match
+splitvars                                              false
+sort_mode_declarations                                  true
+smart_coverage                                          true
+sample                                                   1.0
+remove_negatives                                       false
+recall_bound_on_evaluation                            (+inf)
+randomize_recall                                       false
+random_seed                                                7
+progolem_tournament_size                                   2
+progolem_stochastic_beam                               false
+progolem_refinement_operator                            armg
+progolem_negative_sample_per_iteration                     0
+progolem_mode                                         single
+progolem_iteration_sample_size                            20
+progolem_initial_pairs_sample                             20
+progolem_bypass_coverage_iters                             0
+progolem_beam_width                                        3
+print                                                      4
+positive_example_inflation                                 1
+output_theory_file                                 theory.pl
+nodes                                                   5000
+noise                                                    0.5
+negative_reduction_measure                         precision
+negative_reduction_effort                             normal
+negative_example_inflation                                 1
+min_resolutions                                        10000
+minprec                                                    0
+minimum_singletons_in_clause                               0
+mincov                                                     0
+minacc                                                     0
+max_clauses_per_theory                                   inf
+max_uncompressive_examples                                20
+maximum_singletons_in_clause                             inf
+example_inflation                                          1
+evaluate_negatives_first                                true
+evalfn                                           compression
+engine                                              progolem
+determinate_transformation                             false
+cut_transformation                                     false
+clause_evaluation                       smallest_predicate_domain
+bottom_early_stop                                      false
+686 examples loaded.
+343 positives, 343 negatives.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+1% (4/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+2% (7/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+3% (11/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+4% (14/343) examples processed.
+Bottom clause covers negatives
+5% (18/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+6% (21/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+7% (25/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+8% (28/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+9% (31/343) examples processed.
+10% (35/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+11% (38/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Bottom clause covers negatives
+12% (42/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+13% (45/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+14% (49/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+15% (52/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+16% (55/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+17% (59/343) examples processed.
+18% (62/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+19% (66/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+20% (69/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+21% (73/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+22% (76/343) examples processed.
+23% (79/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Bottom clause covers negatives
+24% (83/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+25% (86/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+26% (90/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+27% (93/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+28% (97/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Bottom clause covers negatives
+29% (100/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+30% (103/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+31% (107/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+32% (110/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+33% (114/343) examples processed.
+Bottom clause covers negatives
+34% (117/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+35% (121/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+36% (124/343) examples processed.
+Bottom clause covers negatives
+37% (127/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+38% (131/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+39% (134/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+40% (138/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+41% (141/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+42% (145/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+43% (148/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+44% (151/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+45% (155/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+46% (158/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+47% (162/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+48% (165/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+49% (169/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+50% (172/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+51% (175/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+52% (179/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+53% (182/343) examples processed.
+Bottom clause covers negatives
+54% (186/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+55% (189/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+56% (193/343) examples processed.
+Bottom clause covers negatives
+57% (196/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+58% (199/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+59% (203/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+60% (206/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+61% (210/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+62% (213/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+63% (217/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+64% (220/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+65% (223/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+66% (227/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+67% (230/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+68% (234/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+69% (237/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+70% (241/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Bottom clause covers negatives
+71% (244/343) examples processed.
+Bottom clause covers negatives
+72% (247/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+73% (251/343) examples processed.
+Bottom clause covers negatives
+74% (254/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Bottom clause covers negatives
+75% (258/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Bottom clause covers negatives
+76% (261/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+77% (265/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+78% (268/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+79% (271/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+80% (275/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+81% (278/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+82% (282/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+Bottom clause covers negatives
+83% (285/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+84% (289/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+85% (292/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+86% (295/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+87% (299/343) examples processed.
+Bottom clause covers negatives
+88% (302/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+89% (306/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+90% (309/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+91% (313/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+92% (316/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+93% (319/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Bottom clause covers negatives
+94% (323/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+95% (326/343) examples processed.
+96% (330/343) examples processed.
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+97% (333/343) examples processed.
+Bottom clause covers negatives
+Bottom clause covers negatives
+98% (337/343) examples processed.
+Bottom clause covers negatives
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+No compressive hypothesis
+99% (340/343) examples processed.
+Bottom clause covers negatives
+100% (343/343) examples processed.
+50 unique hypotheses were generated from 343 examples.
+2% (1/50) hypotheses coverage computed.
+4% (2/50) hypotheses coverage computed.
+6% (3/50) hypotheses coverage computed.
+8% (4/50) hypotheses coverage computed.
+10% (5/50) hypotheses coverage computed.
+12% (6/50) hypotheses coverage computed.
+14% (7/50) hypotheses coverage computed.
+16% (8/50) hypotheses coverage computed.
+18% (9/50) hypotheses coverage computed.
+20% (10/50) hypotheses coverage computed.
+22% (11/50) hypotheses coverage computed.
+24% (12/50) hypotheses coverage computed.
+26% (13/50) hypotheses coverage computed.
+28% (14/50) hypotheses coverage computed.
+30% (15/50) hypotheses coverage computed.
+32% (16/50) hypotheses coverage computed.
+34% (17/50) hypotheses coverage computed.
+36% (18/50) hypotheses coverage computed.
+38% (19/50) hypotheses coverage computed.
+40% (20/50) hypotheses coverage computed.
+42% (21/50) hypotheses coverage computed.
+44% (22/50) hypotheses coverage computed.
+46% (23/50) hypotheses coverage computed.
+48% (24/50) hypotheses coverage computed.
+50% (25/50) hypotheses coverage computed.
+52% (26/50) hypotheses coverage computed.
+54% (27/50) hypotheses coverage computed.
+56% (28/50) hypotheses coverage computed.
+58% (29/50) hypotheses coverage computed.
+60% (30/50) hypotheses coverage computed.
+62% (31/50) hypotheses coverage computed.
+64% (32/50) hypotheses coverage computed.
+66% (33/50) hypotheses coverage computed.
+68% (34/50) hypotheses coverage computed.
+70% (35/50) hypotheses coverage computed.
+72% (36/50) hypotheses coverage computed.
+74% (37/50) hypotheses coverage computed.
+76% (38/50) hypotheses coverage computed.
+78% (39/50) hypotheses coverage computed.
+80% (40/50) hypotheses coverage computed.
+82% (41/50) hypotheses coverage computed.
+84% (42/50) hypotheses coverage computed.
+86% (43/50) hypotheses coverage computed.
+88% (44/50) hypotheses coverage computed.
+90% (45/50) hypotheses coverage computed.
+92% (46/50) hypotheses coverage computed.
+94% (47/50) hypotheses coverage computed.
+96% (48/50) hypotheses coverage computed.
+98% (49/50) hypotheses coverage computed.
+100% (50/50) hypotheses coverage computed.
+Coverage for 50 unique hypotheses has been computed.
+
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+
+Theory constructed for fold 1/10.
+Theory constructed for fold 2/10.
+Theory constructed for fold 3/10.
+Theory constructed for fold 4/10.
+Theory constructed for fold 5/10.
+Theory constructed for fold 6/10.
+Theory constructed for fold 7/10.
+Theory constructed for fold 8/10.
+Theory constructed for fold 9/10.
+Theory constructed for fold 10/10.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/8:
+#Literals=5, PosScore=36 (36 new), NegScore=5 (5 new) Prec=87.8% (87.8% new)
+great_ne(A,B):-
+   alk_groups(A,C), ring_subst_2(A,D), x_subst(B,E,F), ring_substitutions(A,C).
+
+Hypothesis 2/8:
+#Literals=3, PosScore=20 (20 new), NegScore=0 (0 new) Prec=100% (100% new)
+great_ne(A,B):-
+   ring_substitutions(A,C), ring_subst_5(B,D).
+
+Hypothesis 3/8:
+#Literals=5, PosScore=24 (19 new), NegScore=6 (5 new) Prec=80% (79.2% new)
+great_ne(A,B):-
+   ring_substitutions(A,C), ring_subst_2(A,D), ring_subst_4(B,E), ring_substitutions(B,C).
+
+Hypothesis 4/8:
+#Literals=5, PosScore=17 (17 new), NegScore=3 (3 new) Prec=85% (85% new)
+great_ne(A,B):-
+   ring_substitutions(A,C), ring_subst_3(A,D), ring_subst_4(B,E), ring_substitutions(B,C).
+
+Hypothesis 5/8:
+#Literals=5, PosScore=18 (18 new), NegScore=6 (6 new) Prec=75% (75% new)
+great_ne(A,B):-
+   ring_substitutions(A,C), ring_subst_2(A,D), ring_subst_3(B,E), ring_substitutions(B,C).
+
+Hypothesis 6/8:
+#Literals=3, PosScore=14 (14 new), NegScore=5 (5 new) Prec=73.7% (73.7% new)
+great_ne(A,B):-
+   r_subst_2(A,C), r_subst_3(B,D).
+
+Hypothesis 7/8:
+#Literals=5, PosScore=21 (17 new), NegScore=7 (7 new) Prec=75% (70.8% new)
+great_ne(A,B):-
+   alk_groups(A,C), ring_subst_3(A,D), x_subst(B,E,F), ring_substitutions(A,C).
+
+Hypothesis 8/8:
+#Literals=4, PosScore=18 (13 new), NegScore=6 (5 new) Prec=75% (72.2% new)
+great_ne(A,B):-
+   ring_substitutions(A,C), x_subst(A,D,E), x_subst(B,F,G).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            154+/-0|             36+/-0|            190+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|            189+/-0|            307+/-0|            496+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            343+/-0|            343+/-0|            686+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 67.2% +/-0.0%
+Recall/Sensitivity: 44.9% +/-0.0% (% of correctly class. positive examples)
+Specificity: 89.5% +/-0.0% (% of correctly class. negative examples)
+Precision: 81.1% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 61.9% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.578 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.384 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+***********************************
+* Average train theory statistics *
+***********************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            141+/-5|             33+/-2|            174+/-7
+-----------|-------------------|-------------------|-------------------
+   Negative|            168+/-6|            276+/-5|           443+/-10
+-----------|-------------------|-------------------|-------------------
+ Totals    |           309+/-11|            309+/-7|           617+/-17
+
+Default accuracy: 50.4% +/-0.3%
+Classifier accuracy: 67.5% +/-0.6%
+Recall/Sensitivity: 45.7% +/-1.3% (% of correctly class. positive examples)
+Specificity: 89.3% +/-0.7% (% of correctly class. negative examples)
+Precision: 81% +/-0.9% (% of correctly predicted positive examples)
+CorPredNeg: 62.2% +/-0.7% (i.e. % of correctly predicted negative examples)
+F1-score: 0.584 +/-0.01 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.389 +/-0.01 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+**********************************
+* Average test theory statistics *
+**********************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             15+/-3|              5+/-2|             19+/-5
+-----------|-------------------|-------------------|-------------------
+   Negative|             20+/-5|             30+/-4|             49+/-9
+-----------|-------------------|-------------------|-------------------
+ Totals    |             34+/-9|             34+/-6|            69+/-14
+
+Default accuracy: 53.9% +/-3.2%
+Classifier accuracy: 64.9% +/-4.2%
+Recall/Sensitivity: 43.3% +/-6.7% (% of correctly class. positive examples)
+Specificity: 86.5% +/-5.3% (% of correctly class. negative examples)
+Precision: 75.9% +/-8.5% (% of correctly predicted positive examples)
+CorPredNeg: 60.8% +/-5.8% (i.e. % of correctly predicted negative examples)
+F1-score: 0.547 +/-0.06 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.33 +/-0.08 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+Total memory used (in bytes): 37,905,632. Total cputime (in ms): 20,894
