@@ -1,0 +1,294 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+GILPS settings
+
+Setting                                                Value
+
+noise                                                      0
+maxneg                                                     0
+max_uncompressive_examples                                10
+theory_construction                              incremental
+progolem_refinement_operator                            armg
+negative_reduction_measure                         precision
+progolem_iteration_sample_size                            10
+progolem_initial_pairs_sample                             10
+progolem_beam_width                                        2
+progolem_mode                                         single
+min_resolutions                                       (+inf)
+clause_evaluation                                   advanced
+engine                                              progolem
+evalfn                                           compression
+verbose                                                    2
+star_default_recall                                        2
+srmg_heuristic                                   first_match
+splitvars                                              false
+sort_mode_declarations                                  true
+smart_coverage                                          true
+sample                                                   1.0
+remove_negatives                                       false
+recall_bound_on_evaluation                            (+inf)
+randomize_recall                                       false
+random_seed                                                7
+progolem_tournament_size                                   2
+progolem_stochastic_beam                               false
+progolem_negative_sample_per_iteration                     0
+progolem_bypass_coverage_iters                             0
+print                                                      4
+positive_example_inflation                                 1
+output_theory_file                                 theory.pl
+nodes                                                   5000
+negative_reduction_effort                             normal
+negative_example_inflation                                 1
+minprec                                                    0
+minpos                                                     2
+minimum_singletons_in_clause                               0
+mincov                                                     0
+minacc                                                     0
+max_clauses_per_theory                                   inf
+maximum_singletons_in_clause                             inf
+i                                                          3
+example_inflation                                          1
+evaluate_negatives_first                                true
+determinate_transformation                             false
+depth                                                     20
+cut_transformation                                     false
+cross_validation_folds                                     1
+clause_length                                              4
+bottom_early_stop                                      false
+200 examples loaded.
+100 positives, 100 negatives.
+Best armg at iter 1:[1]. Score:-182 NumLits:183 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[1,94]. Score:-122 NumLits:124 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[1,42,94]. Score:-96 NumLits:99 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[1,42,49,94]. Score:-78 NumLits:82 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[1,42,46,49,94]. Score:-60 NumLits:66 NewPos:6 Neg:0 Prec:1
+Best armg at iter 6:[1,42,49,62,77,94]. Score:-51 NumLits:62 NewPos:11 Neg:0 Prec:1
+Best armg at iter 7:[1,8,30,42,49,77,94]. Score:-40 NumLits:58 NewPos:18 Neg:0 Prec:1
+Best armg at iter 8:[1,8,29,30,42,49,77,94]. Score:-30 NumLits:54 NewPos:24 Neg:0 Prec:1
+Best armg at iter 9:[1,8,29,30,37,42,49,77,94]. Score:-25 NumLits:53 NewPos:28 Neg:0 Prec:1
+Best armg at iter 10:[1,8,29,30,37,42,49,73,77,94]. Score:-22 NumLits:52 NewPos:30 Neg:0 Prec:1
+Before neg reduction. Score:-22 NumLits:52 NewPos:30, Neg:0 Prec:1
+After neg reduction. Score:-10 NumLits:47 NewPos:37, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d0) did not generate any scoring hypothesis.
+Still 99 positive and 100 negative examples.
+Best armg at iter 1:[2]. Score:-212 NumLits:213 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[2,21]. Score:-165 NumLits:167 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[2,84,94]. Score:-118 NumLits:121 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[2,57,84,94]. Score:-88 NumLits:92 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[2,57,71,84,94]. Score:-71 NumLits:76 NewPos:5 Neg:0 Prec:1
+Best armg at iter 6:[2,30,57,62,84,94]. Score:-61 NumLits:70 NewPos:9 Neg:0 Prec:1
+Best armg at iter 7:[2,40,57,71,84,86,94]. Score:-50 NumLits:64 NewPos:14 Neg:0 Prec:1
+Best armg at iter 8:[2,17,40,57,71,84,86,94]. Score:-42 NumLits:62 NewPos:20 Neg:0 Prec:1
+Best armg at iter 9:[2,17,40,57,64,71,84,86,94]. Score:-35 NumLits:59 NewPos:24 Neg:0 Prec:1
+Best armg at iter 10:[2,17,40,42,57,63,71,84,86,94]. Score:-32 NumLits:58 NewPos:26 Neg:0 Prec:1
+Before neg reduction. Score:-32 NumLits:58 NewPos:26, Neg:0 Prec:1
+After neg reduction. Score:-4 NumLits:51 NewPos:47, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d1) did not generate any scoring hypothesis.
+Still 98 positive and 100 negative examples.
+Best armg at iter 1:[3]. Score:-182 NumLits:183 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[3,67]. Score:-136 NumLits:138 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[3,63,67]. Score:-95 NumLits:98 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[3,63,67,83]. Score:-76 NumLits:80 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[3,37,63,67,83]. Score:-60 NumLits:65 NewPos:5 Neg:0 Prec:1
+Best armg at iter 6:[3,33,37,63,67,83]. Score:-47 NumLits:58 NewPos:11 Neg:0 Prec:1
+Best armg at iter 7:[3,33,37,63,67,83,94]. Score:-32 NumLits:54 NewPos:22 Neg:0 Prec:1
+Best armg at iter 8:[3,33,37,58,63,67,83,94]. Score:-25 NumLits:53 NewPos:28 Neg:0 Prec:1
+Best armg at iter 9:[3,33,37,58,63,66,67,83,94]. Score:-12 NumLits:51 NewPos:39 Neg:0 Prec:1
+Best armg at iter 10:[3,33,37,58,63,65,66,67,83,94]. Score:-7 NumLits:50 NewPos:43 Neg:0 Prec:1
+Before neg reduction. Score:-7 NumLits:50 NewPos:43, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:48 NewPos:46, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d2) did not generate any scoring hypothesis.
+Still 97 positive and 100 negative examples.
+Best armg at iter 1:[4]. Score:-182 NumLits:183 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[4,63]. Score:-134 NumLits:136 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[4,29,63]. Score:-102 NumLits:105 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[4,29,63,89]. Score:-83 NumLits:87 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[4,24,29,63,88]. Score:-67 NumLits:72 NewPos:5 Neg:0 Prec:1
+Best armg at iter 6:[4,15,24,29,55,63]. Score:-55 NumLits:64 NewPos:9 Neg:0 Prec:1
+Best armg at iter 7:[4,24,29,63,68,85,88]. Score:-40 NumLits:57 NewPos:17 Neg:0 Prec:1
+Best armg at iter 8:[4,24,28,29,63,68,85,88]. Score:-11 NumLits:51 NewPos:40 Neg:0 Prec:1
+Before neg reduction. Score:-11 NumLits:51 NewPos:40, Neg:0 Prec:1
+After neg reduction. Score:8 NumLits:44 NewPos:52, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+p(A):-
+   br0(A,B,C), br15(A,B,D), br14(A,D,E), br9(A,C,E), 
+   br9(A,C,B), br0(A,B,E), br9(A,E,C), br9(A,E,B), 
+   br9(A,B,E), br1(A,C,E), br1(A,C,B), br1(A,E,F), 
+   br1(A,E,C), br1(A,B,C), br1(A,B,E), br2(A,C,E), 
+   br2(A,C,B), br2(A,E,F), br2(A,E,C), br2(A,B,C), 
+   br2(A,B,E), br3(A,C,E), br3(A,E,C), br4(A,C,F), 
+   br5(A,C,F), br5(A,B,F), br6(A,C,B), br7(A,E,B), 
+   br14(A,C,G), br14(A,C,E), br14(A,E,C), br15(A,C,G), 
+   br15(A,E,B), br8(A,B,D), br9(A,D,E), br9(A,D,B), 
+   br1(A,D,C), br3(A,B,G), br2(A,G,C), br3(A,D,B), 
+   br9(A,B,F), br6(A,F,B), br12(A,D,E).
+
+Total 52 positive and 0 negative weights are covered by it.
+Still 46 positive and 100 negative weights.
+Best armg at iter 1:[7]. Score:-182 NumLits:183 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[7,62]. Score:-134 NumLits:136 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[7,8,94]. Score:-101 NumLits:104 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[7,8,30,94]. Score:-79 NumLits:83 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[7,8,30,62,94]. Score:-63 NumLits:68 NewPos:5 Neg:0 Prec:1
+Best armg at iter 6:[7,8,25,30,62,94]. Score:-54 NumLits:60 NewPos:6 Neg:0 Prec:1
+Best armg at iter 7:[7,8,11,30,62,70,94]. Score:-52 NumLits:60 NewPos:8 Neg:0 Prec:1
+Best armg at iter 8:[7,8,11,30,62,67,70,94]. Score:-49 NumLits:58 NewPos:9 Neg:0 Prec:1
+Best armg at iter 9:[7,8,11,30,50,62,67,70,94]. Score:-46 NumLits:56 NewPos:10 Neg:0 Prec:1
+Best armg at iter 10:[7,8,11,30,50,62,67,70,94,100]. Score:-44 NumLits:55 NewPos:11 Neg:0 Prec:1
+Before neg reduction. Score:-44 NumLits:55 NewPos:11, Neg:0 Prec:1
+After neg reduction. Score:-32 NumLits:47 NewPos:15, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d6) did not generate any scoring hypothesis.
+Still 45 positive and 100 negative examples.
+Best armg at iter 1:[8]. Score:-152 NumLits:153 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[8,62]. Score:-116 NumLits:118 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[8,62,95]. Score:-87 NumLits:90 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[8,62,81,95]. Score:-69 NumLits:73 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[8,57,62,81,95]. Score:-56 NumLits:62 NewPos:6 Neg:0 Prec:1
+Best armg at iter 6:[8,51,62,81,94,95]. Score:-46 NumLits:54 NewPos:8 Neg:0 Prec:1
+Best armg at iter 7:[8,18,57,62,66,81,95]. Score:-41 NumLits:53 NewPos:12 Neg:0 Prec:1
+Best armg at iter 8:[8,18,57,62,66,73,81,95]. Score:-38 NumLits:51 NewPos:13 Neg:0 Prec:1
+Best armg at iter 9:[8,11,18,57,62,66,73,81,95]. Score:-36 NumLits:50 NewPos:14 Neg:0 Prec:1
+Best armg at iter 10:[8,11,18,57,62,66,69,73,81,95]. Score:-33 NumLits:49 NewPos:16 Neg:0 Prec:1
+Before neg reduction. Score:-33 NumLits:49 NewPos:16, Neg:0 Prec:1
+After neg reduction. Score:-22 NumLits:44 NewPos:22, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d7) did not generate any scoring hypothesis.
+Still 44 positive and 100 negative examples.
+Best armg at iter 1:[9]. Score:-152 NumLits:153 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[9,53]. Score:-114 NumLits:116 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[9,37,53]. Score:-89 NumLits:92 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[9,15,37,50]. Score:-69 NumLits:73 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[9,15,37,50,65]. Score:-56 NumLits:62 NewPos:6 Neg:0 Prec:1
+Best armg at iter 6:[9,15,37,50,65,72]. Score:-46 NumLits:55 NewPos:9 Neg:0 Prec:1
+Best armg at iter 7:[9,15,37,50,58,65,72]. Score:-37 NumLits:50 NewPos:13 Neg:0 Prec:1
+Best armg at iter 8:[9,14,15,37,50,65,72,84]. Score:-34 NumLits:49 NewPos:15 Neg:0 Prec:1
+Best armg at iter 9:[9,14,15,21,37,50,65,72,84]. Score:-29 NumLits:47 NewPos:18 Neg:0 Prec:1
+Before neg reduction. Score:-29 NumLits:47 NewPos:18, Neg:0 Prec:1
+After neg reduction. Score:-11 NumLits:36 NewPos:25, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d8) did not generate any scoring hypothesis.
+Still 43 positive and 100 negative examples.
+Best armg at iter 1:[11]. Score:-182 NumLits:183 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[11,54]. Score:-135 NumLits:137 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[11,54,96]. Score:-104 NumLits:107 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[11,54,62,96]. Score:-82 NumLits:86 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[11,54,62,84,96]. Score:-67 NumLits:72 NewPos:5 Neg:0 Prec:1
+Best armg at iter 6:[11,54,62,66,84,96]. Score:-56 NumLits:62 NewPos:6 Neg:0 Prec:1
+Best armg at iter 7:[11,35,54,62,66,84,96]. Score:-47 NumLits:56 NewPos:9 Neg:0 Prec:1
+Best armg at iter 8:[11,35,54,62,66,73,84,96]. Score:-45 NumLits:55 NewPos:10 Neg:0 Prec:1
+Best armg at iter 9:[11,18,25,54,62,70,84,96,99]. Score:-43 NumLits:54 NewPos:11 Neg:0 Prec:1
+Before neg reduction. Score:-43 NumLits:54 NewPos:11, Neg:0 Prec:1
+After neg reduction. Score:-25 NumLits:44 NewPos:19, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d10) did not generate any scoring hypothesis.
+Still 42 positive and 100 negative examples.
+Best armg at iter 1:[14]. Score:-182 NumLits:183 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[14,35]. Score:-139 NumLits:141 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[14,70,91]. Score:-99 NumLits:102 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[14,70,91,96]. Score:-76 NumLits:80 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[14,70,78,91,96]. Score:-62 NumLits:67 NewPos:5 Neg:0 Prec:1
+Best armg at iter 6:[14,25,53,70,91,96]. Score:-51 NumLits:59 NewPos:8 Neg:0 Prec:1
+Best armg at iter 7:[14,25,64,70,78,91,96]. Score:-45 NumLits:55 NewPos:10 Neg:0 Prec:1
+Best armg at iter 8:[14,25,64,69,70,78,91,96]. Score:-41 NumLits:53 NewPos:12 Neg:0 Prec:1
+Best armg at iter 9:[14,21,25,45,64,70,78,91,96]. Score:-39 NumLits:52 NewPos:13 Neg:0 Prec:1
+Before neg reduction. Score:-39 NumLits:52 NewPos:13, Neg:0 Prec:1
+After neg reduction. Score:-37 NumLits:50 NewPos:13, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d13) did not generate any scoring hypothesis.
+Still 41 positive and 100 negative examples.
+Best armg at iter 1:[15]. Score:-182 NumLits:183 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[15,67]. Score:-135 NumLits:137 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[15,38,67]. Score:-105 NumLits:108 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[15,38,51,67]. Score:-83 NumLits:87 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[15,38,51,67,95]. Score:-67 NumLits:72 NewPos:5 Neg:0 Prec:1
+Best armg at iter 6:[15,38,51,62,67,95]. Score:-54 NumLits:62 NewPos:8 Neg:0 Prec:1
+Best armg at iter 7:[15,38,51,62,64,67,95]. Score:-39 NumLits:52 NewPos:13 Neg:0 Prec:1
+Best armg at iter 8:[15,38,51,62,64,67,70,95]. Score:-37 NumLits:51 NewPos:14 Neg:0 Prec:1
+Before neg reduction. Score:-37 NumLits:51 NewPos:14, Neg:0 Prec:1
+After neg reduction. Score:-13 NumLits:40 NewPos:27, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d14) did not generate any scoring hypothesis.
+Still 40 positive and 100 negative examples.
+Best armg at iter 1:[18]. Score:-182 NumLits:183 NewPos:1 Neg:0 Prec:1
+Best armg at iter 2:[18,69]. Score:-137 NumLits:139 NewPos:2 Neg:0 Prec:1
+Best armg at iter 3:[18,39,69]. Score:-104 NumLits:107 NewPos:3 Neg:0 Prec:1
+Best armg at iter 4:[18,39,54,69]. Score:-82 NumLits:86 NewPos:4 Neg:0 Prec:1
+Best armg at iter 5:[18,39,58,69,93]. Score:-67 NumLits:73 NewPos:6 Neg:0 Prec:1
+Best armg at iter 6:[18,39,54,69,79,89]. Score:-55 NumLits:62 NewPos:7 Neg:0 Prec:1
+Best armg at iter 7:[18,39,57,58,69,93,96]. Score:-47 NumLits:57 NewPos:10 Neg:0 Prec:1
+Best armg at iter 8:[18,38,39,57,58,69,93,96]. Score:-43 NumLits:56 NewPos:13 Neg:0 Prec:1
+Best armg at iter 9:[18,39,53,54,69,79,89,92,93]. Score:-38 NumLits:53 NewPos:15 Neg:0 Prec:1
+Best armg at iter 10:[18,39,53,54,69,79,89,92,93,100]. Score:-36 NumLits:52 NewPos:16 Neg:0 Prec:1
+Before neg reduction. Score:-36 NumLits:52 NewPos:16, Neg:0 Prec:1
+After neg reduction. Score:-26 NumLits:49 NewPos:23, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Example p(d17) did not generate any scoring hypothesis.
+Still 39 positive and 100 negative examples.
+
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=44, PosScore=52 (52 new), NegScore=0 (0 new) Prec=100% (100% new)
+p(A):-
+   br0(A,B,C), br15(A,B,D), br14(A,D,E), br9(A,C,E), 
+   br9(A,C,B), br0(A,B,E), br9(A,E,C), br9(A,E,B), 
+   br9(A,B,E), br1(A,C,E), br1(A,C,B), br1(A,E,F), 
+   br1(A,E,C), br1(A,B,C), br1(A,B,E), br2(A,C,E), 
+   br2(A,C,B), br2(A,E,F), br2(A,E,C), br2(A,B,C), 
+   br2(A,B,E), br3(A,C,E), br3(A,E,C), br4(A,C,F), 
+   br5(A,C,F), br5(A,B,F), br6(A,C,B), br7(A,E,B), 
+   br14(A,C,G), br14(A,C,E), br14(A,E,C), br15(A,C,G), 
+   br15(A,E,B), br8(A,B,D), br9(A,D,E), br9(A,D,B), 
+   br1(A,D,C), br3(A,B,G), br2(A,G,C), br3(A,D,B), 
+   br9(A,B,F), br6(A,F,B), br12(A,D,E).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             52+/-0|              0+/-0|             52+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|             48+/-0|            100+/-0|            148+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            100+/-0|            100+/-0|            200+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 76% +/-0.0%
+Recall/Sensitivity: 52% +/-0.0% (% of correctly class. positive examples)
+Specificity: 100% +/-0.0% (% of correctly class. negative examples)
+Precision: 100% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 67.6% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.684 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.593 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+Total memory used (in bytes): 148,854,856. Total cputime (in ms): 239,535
