@@ -1,0 +1,15 @@
+theory_clause([great(A,B),alk_groups(A,C),r_subst_3(B,D),ring_substitutions(B,C)],[great(+a,+a),alk_groups(+a,-n),r_subst_3(+a,-n),ring_substitutions(+a,-n)]).
+theory_clause([great(A,B),x_subst(A,C,D),ring_subst_4(A,E)],[great(+a,+a),x_subst(+a,-n,-b),ring_subst_4(+a,-b)]).
+theory_clause([great(A,B),r_subst_2(B,C),n_val(A,D)],[great(+a,+a),r_subst_2(+a,-m),n_val(+a,-n)]).
+theory_clause([great(A,B),ring_subst_4(B,C),r_subst_3(B,D)],[great(+a,+a),ring_subst_4(+a,-b),r_subst_3(+a,-n)]).
+theory_clause([great(A,B),ring_subst_3(B,C),r_subst_3(B,D)],[great(+a,+a),ring_subst_3(+a,-b),r_subst_3(+a,-n)]).
+theory_clause([great(A,B),alk_groups(B,C),ring_subst_5(A,D),ring_substitutions(B,C)],[great(+a,+a),alk_groups(+a,-n),ring_subst_5(+a,-b),ring_substitutions(+a,-n)]).
+theory_clause([great(A,B),x_subst(A,C,D),ring_subst_2(B,D)],[great(+a,+a),x_subst(+a,-n,-b),ring_subst_2(+a,-b)]).
+theory_clause([great(A,B),x_subst(A,C,D),polarisable(D,E),ring_substitutions(B,F),x_subst(B,C,G),size(G,H),size(D,H),polarisable(G,E)],[great(+a,+a),x_subst(+a,-n,-b),polarisable(+b,-j),ring_substitutions(+a,-n),x_subst(+a,-n,-b),size(+b,-d),size(+b,-d),polarisable(+b,-j)]).
+theory_clause([great(A,B),ring_subst_4(B,C),h_acceptor(C,D),ring_substitutions(A,E),ring_substitutions(B,E),ring_subst_2(A,F),size(F,G),size(C,G),h_acceptor(F,D)],[great(+a,+a),ring_subst_4(+a,-b),h_acceptor(+b,-g),ring_substitutions(+a,-n),ring_substitutions(+a,-n),ring_subst_2(+a,-b),size(+b,-d),size(+b,-d),h_acceptor(+b,-g)]).
+theory_clause([great(A,B),x_subst(A,C,D),ring_subst_4(B,D)],[great(+a,+a),x_subst(+a,-n,-b),ring_subst_4(+a,-b)]).
+theory_clause([great(A,B),alk_groups(A,C),n_val(B,D),alk_groups(B,C)],[great(+a,+a),alk_groups(+a,-n),n_val(+a,-n),alk_groups(+a,-n)]).
+theory_clause([great(A,B),x_subst(A,C,D),ring_subst_3(B,D)],[great(+a,+a),x_subst(+a,-n,-b),ring_subst_3(+a,-b)]).
+theory_clause([great(A,B),x_subst(A,C,D),ring_subst_2(B,E),x_subst(B,C,F)],[great(+a,+a),x_subst(+a,-n,-b),ring_subst_2(+a,-b),x_subst(+a,-n,-b)]).
+theory_clause([great(A,B),ring_subst_3(B,C),h_acceptor(C,D),ring_subst_2(A,E),size(E,F),size(C,F),h_acceptor(E,D)],[great(+a,+a),ring_subst_3(+a,-b),h_acceptor(+b,-g),ring_subst_2(+a,-b),size(+b,-d),size(+b,-d),h_acceptor(+b,-g)]).
+theory_clause([great(A,B),x_subst(A,C,D),ring_subst_5(B,E)],[great(+a,+a),x_subst(+a,-n,-b),ring_subst_5(+a,-b)]).
