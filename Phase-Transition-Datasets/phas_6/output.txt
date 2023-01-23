@@ -1,0 +1,118 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+GILPS settings
+
+Setting                                                Value
+
+noise                                                      0
+maxneg                                                     0
+max_uncompressive_examples                                10
+theory_construction                              incremental
+progolem_refinement_operator                            armg
+negative_reduction_measure                         precision
+progolem_iteration_sample_size                            10
+progolem_initial_pairs_sample                             10
+progolem_beam_width                                        2
+progolem_mode                                         single
+min_resolutions                                       (+inf)
+clause_evaluation                                   advanced
+engine                                              progolem
+evalfn                                           compression
+verbose                                                    2
+star_default_recall                                        2
+srmg_heuristic                                   first_match
+splitvars                                              false
+sort_mode_declarations                                  true
+smart_coverage                                          true
+sample                                                   1.0
+remove_negatives                                       false
+recall_bound_on_evaluation                            (+inf)
+randomize_recall                                       false
+random_seed                                                7
+progolem_tournament_size                                   2
+progolem_stochastic_beam                               false
+progolem_negative_sample_per_iteration                     0
+progolem_bypass_coverage_iters                             0
+print                                                      4
+positive_example_inflation                                 1
+output_theory_file                                 theory.pl
+nodes                                                   5000
+negative_reduction_effort                             normal
+negative_example_inflation                                 1
+minprec                                                    0
+minpos                                                     2
+minimum_singletons_in_clause                               0
+mincov                                                     0
+minacc                                                     0
+max_clauses_per_theory                                   inf
+maximum_singletons_in_clause                             inf
+i                                                          3
+example_inflation                                          1
+evaluate_negatives_first                                true
+determinate_transformation                             false
+depth                                                     20
+cut_transformation                                     false
+cross_validation_folds                                     1
+clause_length                                              4
+bottom_early_stop                                      false
+200 examples loaded.
+100 positives, 100 negatives.
+Best armg at iter 1:[1]. Score:-49 NumLits:53 NewPos:4 Neg:0 Prec:1
+Best armg at iter 2:[1,47]. Score:-33 NumLits:47 NewPos:14 Neg:0 Prec:1
+Best armg at iter 3:[1,5,47]. Score:2 NumLits:42 NewPos:44 Neg:0 Prec:1
+Best armg at iter 4:[1,5,47,91]. Score:27 NumLits:39 NewPos:66 Neg:0 Prec:1
+Best armg at iter 5:[1,5,47,60,91]. Score:54 NumLits:34 NewPos:88 Neg:0 Prec:1
+Best armg at iter 6:[1,5,47,60,91,97]. Score:67 NumLits:32 NewPos:99 Neg:0 Prec:1
+Best armg at iter 7:[1,5,47,60,63,91,97]. Score:69 NumLits:31 NewPos:100 Neg:0 Prec:1
+Before neg reduction. Score:69 NumLits:31 NewPos:100, Neg:0 Prec:1
+After neg reduction. Score:97 NumLits:3 NewPos:100, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+p(A):-
+   br0(A,B,C), br4(A,C,D).
+
+Total 100 positive and 0 negative weights are covered by it.
+Still 0 positive and 100 negative weights.
+
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=3, PosScore=100 (100 new), NegScore=0 (0 new) Prec=100% (100% new)
+p(A):-
+   br0(A,B,C), br4(A,C,D).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            100+/-0|              0+/-0|            100+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|              0+/-0|            100+/-0|            100+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            100+/-0|            100+/-0|            200+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 100% +/-0.0%
+Recall/Sensitivity: 100% +/-0.0% (% of correctly class. positive examples)
+Specificity: 100% +/-0.0% (% of correctly class. negative examples)
+Precision: 100% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 100% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 1 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 1 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+Total memory used (in bytes): 48,547,976. Total cputime (in ms): 4,203

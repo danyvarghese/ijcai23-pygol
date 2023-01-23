@@ -1,0 +1,43 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+200 examples loaded.
+100 positives, 100 negatives.
+400 examples loaded.
+200 positives, 200 negatives.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=3, PosScore=100 (100 new), NegScore=4 (4 new) Prec=96.2% (96.2% new)
+p(A):-
+   br0(A,B,C), br4(A,C,D).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            100+/-0|              4+/-0|            104+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|              0+/-0|             96+/-0|             96+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            100+/-0|            100+/-0|            200+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 98% +/-0.0%
+Recall/Sensitivity: 100% +/-0.0% (% of correctly class. positive examples)
+Specificity: 96% +/-0.0% (% of correctly class. negative examples)
+Precision: 96.2% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 100% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.98 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.961 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
