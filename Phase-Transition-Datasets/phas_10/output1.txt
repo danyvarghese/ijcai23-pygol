@@ -1,0 +1,47 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+200 examples loaded.
+100 positives, 100 negatives.
+400 examples loaded.
+200 positives, 200 negatives.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=21, PosScore=100 (100 new), NegScore=6 (6 new) Prec=94.3% (94.3% new)
+p(A):-
+   br0(A,B,C), br8(A,C,D), br9(A,C,D), br0(A,B,E), 
+   br9(A,E,D), br9(A,E,B), br9(A,B,D), br1(A,B,E), 
+   br1(A,B,D), br2(A,C,D), br2(A,E,D), br2(A,B,C), 
+   br2(A,B,E), br3(A,C,D), br3(A,C,B), br4(A,C,D), 
+   br5(A,C,D), br5(A,E,D), br6(A,C,D), br7(A,C,D).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            100+/-0|              6+/-0|            106+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|              0+/-0|             94+/-0|             94+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            100+/-0|            100+/-0|            200+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 97% +/-0.0%
+Recall/Sensitivity: 100% +/-0.0% (% of correctly class. positive examples)
+Specificity: 94% +/-0.0% (% of correctly class. negative examples)
+Precision: 94.3% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 100% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.971 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.942 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
