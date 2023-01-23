@@ -1,0 +1,762 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+GILPS settings
+
+Setting                                                Value
+
+maximum_singletons_in_clause                               1
+nodes                                                    500
+maxneg                                                     5
+minpos                                                     2
+i                                                          1
+depth                                                      2
+theory_construction                              incremental
+evalfn                                           compression
+cross_validation_folds                                    10
+verbose                                                    1
+star_default_recall                                       10
+srmg_heuristic                                   first_match
+splitvars                                              false
+sort_mode_declarations                                  true
+smart_coverage                                          true
+sample                                                   1.0
+remove_negatives                                       false
+recall_bound_on_evaluation                            (+inf)
+randomize_recall                                       false
+random_seed                                                7
+progolem_tournament_size                                   2
+progolem_stochastic_beam                               false
+progolem_refinement_operator                            armg
+progolem_negative_sample_per_iteration                     0
+progolem_mode                                         single
+progolem_iteration_sample_size                            20
+progolem_initial_pairs_sample                             20
+progolem_bypass_coverage_iters                             0
+progolem_beam_width                                        3
+print                                                      4
+positive_example_inflation                                 1
+output_theory_file                                 theory.pl
+noise                                                    0.5
+negative_reduction_measure                         precision
+negative_reduction_effort                             normal
+negative_example_inflation                                 1
+min_resolutions                                        10000
+minprec                                                    0
+minimum_singletons_in_clause                               0
+mincov                                                     0
+minacc                                                     0
+max_clauses_per_theory                                   inf
+max_uncompressive_examples                                20
+example_inflation                                          1
+evaluate_negatives_first                                true
+engine                                              progolem
+determinate_transformation                             false
+cut_transformation                                     false
+clause_length                                              4
+clause_evaluation                       smallest_predicate_domain
+bottom_early_stop                                      false
+188 examples loaded.
+125 positives, 63 negatives.
+Before neg reduction. Score:17 NumLits:18 NewPos:36, Neg:1 Prec:0.973
+After neg reduction. Score:32 NumLits:3 NewPos:36, Neg:1 Prec:0.973
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 36 positive and 1 negative weights are covered by it.
+Still 89 positive and 63 negative weights.
+Before neg reduction. Score:7 NumLits:22 NewPos:29, Neg:0 Prec:1
+After neg reduction. Score:27 NumLits:2 NewPos:29, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 29 positive and 0 negative weights are covered by it.
+Still 60 positive and 63 negative weights.
+Before neg reduction. Score:-14 NumLits:20 NewPos:6, Neg:0 Prec:1
+After neg reduction. Score:4 NumLits:2 NewPos:6, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   anthracene(A,B).
+
+Total 10 positive and 0 negative weights are covered by it.
+Still 51 positive and 63 negative weights.
+Before neg reduction. Score:-16 NumLits:18 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:3 NewPos:5, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), ring_size_5(A,D).
+
+Total 27 positive and 0 negative weights are covered by it.
+Still 45 positive and 63 negative weights.
+Before neg reduction. Score:-10 NumLits:12 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:0 NumLits:2 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-7 NumLits:16 NewPos:9, Neg:0 Prec:1
+After neg reduction. Score:7 NumLits:2 NewPos:9, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 19 positive and 0 negative weights are covered by it.
+Still 26 positive and 63 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   phenanthrene(A,B).
+
+Total 27 positive and 0 negative weights are covered by it.
+Still 18 positive and 63 negative weights.
+
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+
+Before neg reduction. Score:14 NumLits:18 NewPos:33, Neg:1 Prec:0.9706
+After neg reduction. Score:29 NumLits:3 NewPos:33, Neg:1 Prec:0.9706
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 33 positive and 1 negative weights are covered by it.
+Still 82 positive and 58 negative weights.
+Before neg reduction. Score:3 NumLits:22 NewPos:25, Neg:0 Prec:1
+After neg reduction. Score:23 NumLits:2 NewPos:25, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 25 positive and 0 negative weights are covered by it.
+Still 57 positive and 58 negative weights.
+Before neg reduction. Score:-11 NumLits:20 NewPos:9, Neg:0 Prec:1
+After neg reduction. Score:6 NumLits:3 NewPos:9, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), ring_size_5(A,D).
+
+Total 26 positive and 0 negative weights are covered by it.
+Still 45 positive and 58 negative weights.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-8 NumLits:16 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:6 NumLits:2 NewPos:8, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 16 positive and 0 negative weights are covered by it.
+Still 25 positive and 58 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   phenanthrene(A,B).
+
+Total 24 positive and 0 negative weights are covered by it.
+Still 18 positive and 58 negative weights.
+Theory constructed for fold 1/10.
+Before neg reduction. Score:13 NumLits:18 NewPos:31, Neg:0 Prec:1
+After neg reduction. Score:28 NumLits:3 NewPos:31, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 31 positive and 0 negative weights are covered by it.
+Still 78 positive and 57 negative weights.
+Before neg reduction. Score:6 NumLits:22 NewPos:28, Neg:0 Prec:1
+After neg reduction. Score:26 NumLits:2 NewPos:28, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 28 positive and 0 negative weights are covered by it.
+Still 50 positive and 57 negative weights.
+Before neg reduction. Score:-12 NumLits:20 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:5 NumLits:3 NewPos:8, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), ring_size_5(A,D).
+
+Total 21 positive and 0 negative weights are covered by it.
+Still 39 positive and 57 negative weights.
+Before neg reduction. Score:-16 NumLits:17 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:-3 NumLits:4 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-10 NumLits:12 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:0 NumLits:2 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-9 NumLits:16 NewPos:7, Neg:0 Prec:1
+After neg reduction. Score:5 NumLits:2 NewPos:7, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 17 positive and 0 negative weights are covered by it.
+Still 21 positive and 57 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   phenanthrene(A,B).
+
+Total 25 positive and 0 negative weights are covered by it.
+Still 14 positive and 57 negative weights.
+Before neg reduction. Score:-16 NumLits:17 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:-3 NumLits:4 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 2/10.
+Before neg reduction. Score:2 NumLits:22 NewPos:24, Neg:0 Prec:1
+After neg reduction. Score:22 NumLits:2 NewPos:24, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 24 positive and 0 negative weights are covered by it.
+Still 85 positive and 52 negative weights.
+Before neg reduction. Score:15 NumLits:18 NewPos:34, Neg:1 Prec:0.9714
+After neg reduction. Score:30 NumLits:3 NewPos:34, Neg:1 Prec:0.9714
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 34 positive and 1 negative weights are covered by it.
+Still 50 positive and 52 negative weights.
+Before neg reduction. Score:-13 NumLits:17 NewPos:4, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:3 NewPos:4, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), atm(A,D,c,22,C).
+
+Total 10 positive and 0 negative weights are covered by it.
+Still 43 positive and 52 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   anthracene(A,B).
+
+Total 7 positive and 0 negative weights are covered by it.
+Still 39 positive and 52 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_5_aromatic_ring(A,B).
+
+Total 5 positive and 0 negative weights are covered by it.
+Still 35 positive and 52 negative weights.
+Before neg reduction. Score:-11 NumLits:16 NewPos:5, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:2 NewPos:5, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 15 positive and 0 negative weights are covered by it.
+Still 25 positive and 52 negative weights.
+Before neg reduction. Score:-17 NumLits:19 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:0 NumLits:2 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 3/10.
+Before neg reduction. Score:14 NumLits:18 NewPos:33, Neg:1 Prec:0.9706
+After neg reduction. Score:29 NumLits:3 NewPos:33, Neg:1 Prec:0.9706
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 33 positive and 1 negative weights are covered by it.
+Still 85 positive and 52 negative weights.
+Before neg reduction. Score:5 NumLits:22 NewPos:27, Neg:0 Prec:1
+After neg reduction. Score:25 NumLits:2 NewPos:27, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 27 positive and 0 negative weights are covered by it.
+Still 58 positive and 52 negative weights.
+Before neg reduction. Score:3 NumLits:6 NewPos:9, Neg:0 Prec:1
+After neg reduction. Score:7 NumLits:2 NewPos:9, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_5_aromatic_ring(A,B).
+
+Total 9 positive and 0 negative weights are covered by it.
+Still 46 positive and 52 negative weights.
+Before neg reduction. Score:-13 NumLits:17 NewPos:4, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:3 NewPos:4, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), atm(A,D,c,22,C).
+
+Total 12 positive and 0 negative weights are covered by it.
+Still 41 positive and 52 negative weights.
+Before neg reduction. Score:-16 NumLits:17 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:-2 NumLits:3 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-9 NumLits:16 NewPos:7, Neg:0 Prec:1
+After neg reduction. Score:5 NumLits:2 NewPos:7, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 19 positive and 0 negative weights are covered by it.
+Still 25 positive and 52 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   phenanthrene(A,B).
+
+Total 25 positive and 0 negative weights are covered by it.
+Still 17 positive and 52 negative weights.
+Before neg reduction. Score:-16 NumLits:17 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:-2 NumLits:3 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 4/10.
+Before neg reduction. Score:10 NumLits:18 NewPos:29, Neg:1 Prec:0.9667
+After neg reduction. Score:25 NumLits:3 NewPos:29, Neg:1 Prec:0.9667
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 29 positive and 1 negative weights are covered by it.
+Still 78 positive and 57 negative weights.
+Before neg reduction. Score:5 NumLits:21 NewPos:26, Neg:0 Prec:1
+After neg reduction. Score:24 NumLits:2 NewPos:26, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   phenanthrene(A,B).
+
+Total 26 positive and 0 negative weights are covered by it.
+Still 52 positive and 57 negative weights.
+Before neg reduction. Score:-13 NumLits:21 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:7 NumLits:2 NewPos:9, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_5_aromatic_ring(A,B).
+
+Total 9 positive and 0 negative weights are covered by it.
+Still 41 positive and 57 negative weights.
+Before neg reduction. Score:-9 NumLits:17 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:5 NumLits:3 NewPos:8, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), atm(A,D,c,22,C).
+
+Total 11 positive and 0 negative weights are covered by it.
+Still 33 positive and 57 negative weights.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-14 NumLits:18 NewPos:4, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:2 NewPos:4, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 14 positive and 0 negative weights are covered by it.
+Still 21 positive and 57 negative weights.
+Theory constructed for fold 5/10.
+Before neg reduction. Score:16 NumLits:18 NewPos:35, Neg:1 Prec:0.9722
+After neg reduction. Score:31 NumLits:3 NewPos:35, Neg:1 Prec:0.9722
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 35 positive and 1 negative weights are covered by it.
+Still 81 positive and 58 negative weights.
+Before neg reduction. Score:-10 NumLits:20 NewPos:10, Neg:0 Prec:1
+After neg reduction. Score:7 NumLits:3 NewPos:10, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), ring_size_5(A,D).
+
+Total 26 positive and 0 negative weights are covered by it.
+Still 69 positive and 58 negative weights.
+Before neg reduction. Score:4 NumLits:23 NewPos:27, Neg:0 Prec:1
+After neg reduction. Score:25 NumLits:2 NewPos:27, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 27 positive and 0 negative weights are covered by it.
+Still 42 positive and 58 negative weights.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-11 NumLits:12 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:-2 NumLits:3 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-7 NumLits:15 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:6 NumLits:2 NewPos:8, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 18 positive and 0 negative weights are covered by it.
+Still 20 positive and 58 negative weights.
+Before neg reduction. Score:-17 NumLits:19 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:0 NumLits:2 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 6/10.
+Before neg reduction. Score:15 NumLits:18 NewPos:34, Neg:1 Prec:0.9714
+After neg reduction. Score:30 NumLits:3 NewPos:34, Neg:1 Prec:0.9714
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 34 positive and 1 negative weights are covered by it.
+Still 84 positive and 59 negative weights.
+Before neg reduction. Score:4 NumLits:22 NewPos:26, Neg:0 Prec:1
+After neg reduction. Score:24 NumLits:2 NewPos:26, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 26 positive and 0 negative weights are covered by it.
+Still 58 positive and 59 negative weights.
+Before neg reduction. Score:-10 NumLits:20 NewPos:10, Neg:0 Prec:1
+After neg reduction. Score:7 NumLits:3 NewPos:10, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), ring_size_5(A,D).
+
+Total 26 positive and 0 negative weights are covered by it.
+Still 45 positive and 59 negative weights.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-7 NumLits:16 NewPos:9, Neg:0 Prec:1
+After neg reduction. Score:7 NumLits:2 NewPos:9, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 18 positive and 0 negative weights are covered by it.
+Still 24 positive and 59 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   phenanthrene(A,B).
+
+Total 24 positive and 0 negative weights are covered by it.
+Still 17 positive and 59 negative weights.
+Theory constructed for fold 7/10.
+Before neg reduction. Score:11 NumLits:18 NewPos:30, Neg:1 Prec:0.9677
+After neg reduction. Score:26 NumLits:3 NewPos:30, Neg:1 Prec:0.9677
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 30 positive and 1 negative weights are covered by it.
+Still 76 positive and 59 negative weights.
+Before neg reduction. Score:6 NumLits:22 NewPos:28, Neg:0 Prec:1
+After neg reduction. Score:26 NumLits:2 NewPos:28, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 28 positive and 0 negative weights are covered by it.
+Still 48 positive and 59 negative weights.
+Before neg reduction. Score:2 NumLits:6 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:6 NumLits:2 NewPos:8, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_5_aromatic_ring(A,B).
+
+Total 8 positive and 0 negative weights are covered by it.
+Still 37 positive and 59 negative weights.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-8 NumLits:16 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:6 NumLits:2 NewPos:8, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 17 positive and 0 negative weights are covered by it.
+Still 19 positive and 59 negative weights.
+Theory constructed for fold 8/10.
+Before neg reduction. Score:13 NumLits:18 NewPos:32, Neg:1 Prec:0.9697
+After neg reduction. Score:28 NumLits:3 NewPos:32, Neg:1 Prec:0.9697
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 32 positive and 1 negative weights are covered by it.
+Still 83 positive and 58 negative weights.
+Before neg reduction. Score:4 NumLits:22 NewPos:26, Neg:0 Prec:1
+After neg reduction. Score:24 NumLits:2 NewPos:26, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 26 positive and 0 negative weights are covered by it.
+Still 57 positive and 58 negative weights.
+Before neg reduction. Score:2 NumLits:6 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:6 NumLits:2 NewPos:8, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_5_aromatic_ring(A,B).
+
+Total 8 positive and 0 negative weights are covered by it.
+Still 46 positive and 58 negative weights.
+Before neg reduction. Score:-13 NumLits:17 NewPos:4, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:3 NewPos:4, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), atm(A,D,c,22,C).
+
+Total 11 positive and 0 negative weights are covered by it.
+Still 41 positive and 58 negative weights.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-9 NumLits:16 NewPos:7, Neg:0 Prec:1
+After neg reduction. Score:5 NumLits:2 NewPos:7, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 18 positive and 0 negative weights are covered by it.
+Still 25 positive and 58 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   phenanthrene(A,B).
+
+Total 24 positive and 0 negative weights are covered by it.
+Still 17 positive and 58 negative weights.
+Theory constructed for fold 9/10.
+Before neg reduction. Score:14 NumLits:18 NewPos:33, Neg:1 Prec:0.9706
+After neg reduction. Score:29 NumLits:3 NewPos:33, Neg:1 Prec:0.9706
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Total 33 positive and 1 negative weights are covered by it.
+Still 79 positive and 57 negative weights.
+Before neg reduction. Score:2 NumLits:22 NewPos:24, Neg:0 Prec:1
+After neg reduction. Score:22 NumLits:2 NewPos:24, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   ball3(A,B).
+
+Total 24 positive and 0 negative weights are covered by it.
+Still 55 positive and 57 negative weights.
+Before neg reduction. Score:-11 NumLits:20 NewPos:9, Neg:0 Prec:1
+After neg reduction. Score:6 NumLits:3 NewPos:9, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,27,C), ring_size_5(A,D).
+
+Total 25 positive and 0 negative weights are covered by it.
+Still 44 positive and 57 negative weights.
+Before neg reduction. Score:-18 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-1 NumLits:2 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-10 NumLits:12 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:0 NumLits:2 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-17 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:-2 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:-7 NumLits:16 NewPos:9, Neg:0 Prec:1
+After neg reduction. Score:7 NumLits:2 NewPos:9, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   carbon_6_ring(A,B).
+
+Total 19 positive and 0 negative weights are covered by it.
+Still 23 positive and 57 negative weights.
+Before neg reduction. Score:-16 NumLits:19 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:2 NewPos:3, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   phenanthrene(A,B).
+
+Total 22 positive and 0 negative weights are covered by it.
+Still 15 positive and 57 negative weights.
+Theory constructed for fold 10/10.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/6:
+#Literals=3, PosScore=36 (36 new), NegScore=1 (1 new) Prec=97.3% (97.3% new)
+active(A):-
+   atm(A,B,c,29,C), ring_size_5(A,D).
+
+Hypothesis 2/6:
+#Literals=2, PosScore=29 (29 new), NegScore=0 (0 new) Prec=100% (100% new)
+active(A):-
+   ball3(A,B).
+
+Hypothesis 3/6:
+#Literals=2, PosScore=10 (6 new), NegScore=0 (0 new) Prec=100% (100% new)
+active(A):-
+   anthracene(A,B).
+
+Hypothesis 4/6:
+#Literals=3, PosScore=27 (5 new), NegScore=0 (0 new) Prec=100% (100% new)
+active(A):-
+   atm(A,B,c,27,C), ring_size_5(A,D).
+
+Hypothesis 5/6:
+#Literals=2, PosScore=19 (9 new), NegScore=0 (0 new) Prec=100% (100% new)
+active(A):-
+   carbon_6_ring(A,B).
+
+Hypothesis 6/6:
+#Literals=2, PosScore=27 (3 new), NegScore=0 (0 new) Prec=100% (100% new)
+active(A):-
+   phenanthrene(A,B).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             88+/-0|              1+/-0|             89+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|             37+/-0|             62+/-0|             99+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            125+/-0|             63+/-0|            188+/-0
+
+Default accuracy: 66.5% +/-0.0%
+Classifier accuracy: 79.8% +/-0.0%
+Recall/Sensitivity: 70.4% +/-0.0% (% of correctly class. positive examples)
+Specificity: 98.4% +/-0.0% (% of correctly class. negative examples)
+Precision: 98.9% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 62.6% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.822 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.651 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+***********************************
+* Average train theory statistics *
+***********************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             78+/-3|              1+/-0|             79+/-4
+-----------|-------------------|-------------------|-------------------
+   Negative|             34+/-2|             56+/-3|             90+/-5
+-----------|-------------------|-------------------|-------------------
+ Totals    |            112+/-5|             57+/-3|            169+/-8
+
+Default accuracy: 66.5% +/-1.4%
+Classifier accuracy: 79.1% +/-1.1%
+Recall/Sensitivity: 69.4% +/-1.2% (% of correctly class. positive examples)
+Specificity: 98.4% +/-0.6% (% of correctly class. negative examples)
+Precision: 98.9% +/-0.4% (% of correctly predicted positive examples)
+CorPredNeg: 61.9% +/-2.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.816 +/-0.01 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.642 +/-0.02 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+**********************************
+* Average test theory statistics *
+**********************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|              8+/-3|              0+/-0|              8+/-3
+-----------|-------------------|-------------------|-------------------
+   Negative|              4+/-3|              6+/-3|             10+/-5
+-----------|-------------------|-------------------|-------------------
+ Totals    |             12+/-6|              6+/-3|             19+/-9
+
+Default accuracy: 68% +/-7.0%
+Classifier accuracy: 78.3% +/-12.1%
+Recall/Sensitivity: 68.4% +/-14.3% (% of correctly class. positive examples)
+Specificity: 98.3% +/-5.3% (% of correctly class. negative examples)
+Precision: 99.1% +/-2.9% (% of correctly predicted positive examples)
+CorPredNeg: 61.9% +/-18.4% (i.e. % of correctly predicted negative examples)
+F1-score: 0.802 +/-0.11 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.636 +/-0.17 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+Total memory used (in bytes): 14,586,368. Total cputime (in ms): 8,136
