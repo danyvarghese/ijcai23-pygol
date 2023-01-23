@@ -1,0 +1,1 @@
+ancestor(elizabeth_second,diana).ancestor(elizabeth_second, prince_philip).ancestor(king_charles, prince_andrew).ancestor(king_charles,viscount_severn).ancestor(prince_andrew,prince_henry).ancestor(august,lucas).ancestor(prince_louis,isla).ancestor(diana,sarah).ancestor(sarah,sarah).ancestor(lady_louise,king_charles).

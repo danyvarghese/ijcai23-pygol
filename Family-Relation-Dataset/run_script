@@ -1,0 +1,14 @@
+COUNTER_FILE3="intermediatea.txt"
+COUNTER_FILE="OSHD_Accuracy_Result.txt"
+for l in {1..2}
+do
+	
+	echo " Class $l">>$COUNTER_FILE3
+	
+	for k in {1..2}
+	do
+	echo " Iter $k">>$COUNTER_FILE3
+	python3 run_python_yap.py $l
+	yap -l run_yap.pl
+	done
+done

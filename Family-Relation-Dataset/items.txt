@@ -1,0 +1,12 @@
+example(ancestor(king_charles,prince_george),1).
+example(ancestor(king_charles,prince_george),1).
+example(ancestor(prince_philip,peter_philips),1).
+example(ancestor(queen_victoria,king_charles),1).
+example(ancestor(elizabeth_second,archie),1).
+example(ancestor(elizabeth_second,archie),1).
+example(ancestor(diana,sarah),-1).
+example(ancestor(sarah,sarah),-1).
+example(ancestor(prince_andrew,prince_henry),-1).
+example(ancestor(lady_louise,king_charles),-1).
+example(ancestor(king_charles,viscount_severn),-1).
+example(ancestor(elizabeth_second,diana),-1).
