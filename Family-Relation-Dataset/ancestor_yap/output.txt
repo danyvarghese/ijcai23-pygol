@@ -1,0 +1,113 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+GILPS settings
+
+Setting                                                Value
+
+verbose                                                    2
+theory_construction                              incremental
+randomize_recall                                       false
+print                                                      2
+evalfn                                           compression
+i                                                          2
+depth                                                     10
+negative_example_inflation                                 1
+positive_example_inflation                                 5
+star_default_recall                                       10
+srmg_heuristic                                   first_match
+splitvars                                              false
+sort_mode_declarations                                  true
+smart_coverage                                          true
+sample                                                   1.0
+remove_negatives                                       false
+recall_bound_on_evaluation                            (+inf)
+random_seed                                                7
+progolem_tournament_size                                   2
+progolem_stochastic_beam                               false
+progolem_refinement_operator                            armg
+progolem_negative_sample_per_iteration                     0
+progolem_mode                                         single
+progolem_iteration_sample_size                            20
+progolem_initial_pairs_sample                             20
+progolem_bypass_coverage_iters                             0
+progolem_beam_width                                        3
+output_theory_file                                 theory.pl
+nodes                                                   5000
+noise                                                    0.5
+negative_reduction_measure                         precision
+negative_reduction_effort                             normal
+min_resolutions                                        10000
+minprec                                                    0
+minpos                                                     2
+minimum_singletons_in_clause                               0
+mincov                                                     0
+minacc                                                     0
+max_clauses_per_theory                                   inf
+max_uncompressive_examples                                20
+maxneg                                                   inf
+maximum_singletons_in_clause                             inf
+example_inflation                                          1
+evaluate_negatives_first                                true
+engine                                              progolem
+determinate_transformation                             false
+cut_transformation                                     false
+cross_validation_folds                                     1
+clause_length                                              4
+clause_evaluation                       smallest_predicate_domain
+bottom_early_stop                                      false
+12 examples loaded.
+6 positives, 6 negatives.
+Best armg at iter 1:[1]. Score:12 NumLits:13 NewPos:25 Neg:0 Prec:1
+Best armg at iter 2:[1,4]. Score:13 NumLits:12 NewPos:30 Neg:5 Prec:0.8571
+Before neg reduction. Score:13 NumLits:12 NewPos:30, Neg:5 Prec:0.8571
+After neg reduction. Score:23 NumLits:2 NewPos:30, Neg:5 Prec:0.8571
+The following highest scoring hypothesis was generated:
+ancestor(A,B):-
+   parent(A,C).
+
+Total 30 positive and 5 negative weights are covered by it.
+Still 0 positive and 6 negative weights.
+
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=2, PosScore=30 (30 new), NegScore=5 (5 new) Prec=85.7% (85.7% new)
+ancestor(A,B):-
+   parent(A,C).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             30+/-0|              5+/-0|             35+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|              0+/-0|              1+/-0|              1+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |             30+/-0|              6+/-0|             36+/-0
+
+Default accuracy: 83.3% +/-0.0%
+Classifier accuracy: 86.1% +/-0.0%
+Recall/Sensitivity: 100% +/-0.0% (% of correctly class. positive examples)
+Specificity: 16.7% +/-0.0% (% of correctly class. negative examples)
+Precision: 85.7% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 100% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.923 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.378 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+Total memory used (in bytes): 6,032,320. Total cputime (in ms): 79
