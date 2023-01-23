@@ -1,0 +1,266 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+576 examples loaded.
+220 positives, 356 negatives.
+Before neg reduction. Score:15 NumLits:11 NewPos:23, Neg:8 Prec:0.7419
+After neg reduction. Score:15 NumLits:4 NewPos:23, Neg:8 Prec:0.7419
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 23 positive and 8 negative weights are covered by it.
+Still 195 positive and 356 negative weights.
+Before neg reduction. Score:1 NumLits:11 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+
+Before neg reduction. Score:14 NumLits:11 NewPos:21, Neg:7 Prec:0.75
+After neg reduction. Score:14 NumLits:4 NewPos:21, Neg:7 Prec:0.75
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 21 positive and 7 negative weights are covered by it.
+Still 172 positive and 320 negative weights.
+Before neg reduction. Score:1 NumLits:11 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 1/10.
+Before neg reduction. Score:14 NumLits:11 NewPos:22, Neg:8 Prec:0.7333
+After neg reduction. Score:14 NumLits:4 NewPos:22, Neg:8 Prec:0.7333
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 22 positive and 8 negative weights are covered by it.
+Still 172 positive and 317 negative weights.
+Theory constructed for fold 2/10.
+Before neg reduction. Score:13 NumLits:11 NewPos:19, Neg:6 Prec:0.76
+After neg reduction. Score:13 NumLits:4 NewPos:19, Neg:6 Prec:0.76
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 19 positive and 6 negative weights are covered by it.
+Still 171 positive and 313 negative weights.
+Before neg reduction. Score:1 NumLits:11 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 3/10.
+Before neg reduction. Score:14 NumLits:11 NewPos:21, Neg:7 Prec:0.75
+After neg reduction. Score:14 NumLits:4 NewPos:21, Neg:7 Prec:0.75
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 21 positive and 7 negative weights are covered by it.
+Still 184 positive and 313 negative weights.
+Before neg reduction. Score:1 NumLits:11 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:3 NewPos:2, Neg:0 Prec:1
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,n3), atom(A,C,c2).
+
+Total 2 positive and 0 negative weights are covered by it.
+Still 182 positive and 313 negative weights.
+Before neg reduction. Score:2 NumLits:11 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,br), atom(A,C,o2), atom(A,D,o3).
+
+Total 3 positive and 1 negative weights are covered by it.
+Still 177 positive and 313 negative weights.
+Theory constructed for fold 4/10.
+Before neg reduction. Score:12 NumLits:11 NewPos:20, Neg:8 Prec:0.7143
+After neg reduction. Score:12 NumLits:4 NewPos:20, Neg:8 Prec:0.7143
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 20 positive and 8 negative weights are covered by it.
+Still 177 positive and 321 negative weights.
+Before neg reduction. Score:1 NumLits:10 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:1 NumLits:3 NewPos:2, Neg:1 Prec:0.6667
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,n3), atom(A,C,c2).
+
+Total 2 positive and 1 negative weights are covered by it.
+Still 175 positive and 321 negative weights.
+Theory constructed for fold 5/10.
+Before neg reduction. Score:14 NumLits:11 NewPos:21, Neg:7 Prec:0.75
+After neg reduction. Score:14 NumLits:4 NewPos:21, Neg:7 Prec:0.75
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 21 positive and 7 negative weights are covered by it.
+Still 188 positive and 322 negative weights.
+Before neg reduction. Score:1 NumLits:11 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 6/10.
+Before neg reduction. Score:16 NumLits:11 NewPos:23, Neg:7 Prec:0.7667
+After neg reduction. Score:16 NumLits:4 NewPos:23, Neg:7 Prec:0.7667
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 23 positive and 7 negative weights are covered by it.
+Still 165 positive and 334 negative weights.
+Before neg reduction. Score:1 NumLits:10 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:1 NumLits:3 NewPos:2, Neg:1 Prec:0.6667
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,n3), atom(A,C,c2).
+
+Total 2 positive and 1 negative weights are covered by it.
+Still 163 positive and 334 negative weights.
+Theory constructed for fold 7/10.
+Before neg reduction. Score:13 NumLits:11 NewPos:21, Neg:8 Prec:0.7241
+After neg reduction. Score:13 NumLits:4 NewPos:21, Neg:8 Prec:0.7241
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 21 positive and 8 negative weights are covered by it.
+Still 178 positive and 319 negative weights.
+Before neg reduction. Score:1 NumLits:10 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:1 NumLits:3 NewPos:2, Neg:1 Prec:0.6667
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,n3), atom(A,C,c2).
+
+Total 2 positive and 1 negative weights are covered by it.
+Still 176 positive and 319 negative weights.
+Before neg reduction. Score:4 NumLits:8 NewPos:9, Neg:5 Prec:0.6429
+After neg reduction. Score:4 NumLits:3 NewPos:9, Neg:5 Prec:0.6429
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,br), atom(A,C,car).
+
+Total 9 positive and 5 negative weights are covered by it.
+Still 166 positive and 319 negative weights.
+Theory constructed for fold 8/10.
+Before neg reduction. Score:1 NumLits:11 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:13 NumLits:11 NewPos:20, Neg:7 Prec:0.7407
+After neg reduction. Score:13 NumLits:4 NewPos:20, Neg:7 Prec:0.7407
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,cl), atom(A,D,car).
+
+Total 20 positive and 7 negative weights are covered by it.
+Still 178 positive and 329 negative weights.
+Theory constructed for fold 9/10.
+Before neg reduction. Score:12 NumLits:11 NewPos:19, Neg:7 Prec:0.7308
+After neg reduction. Score:12 NumLits:4 NewPos:19, Neg:7 Prec:0.7308
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+Total 19 positive and 7 negative weights are covered by it.
+Still 169 positive and 316 negative weights.
+Before neg reduction. Score:1 NumLits:10 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:1 NumLits:3 NewPos:2, Neg:1 Prec:0.6667
+The following highest scoring hypothesis was generated:
+active(A):-
+   atom(A,B,n3), atom(A,C,c2).
+
+Total 2 positive and 1 negative weights are covered by it.
+Still 167 positive and 316 negative weights.
+Theory constructed for fold 10/10.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=4, PosScore=23 (23 new), NegScore=8 (8 new) Prec=74.2% (74.2% new)
+active(A):-
+   atom(A,B,o3), atom(A,C,car), atom(A,D,cl).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             23+/-0|              8+/-0|             31+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|            197+/-0|            348+/-0|            545+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            220+/-0|            356+/-0|            576+/-0
+
+Default accuracy: 61.8% +/-0.0%
+Classifier accuracy: 64.4% +/-0.0%
+Recall/Sensitivity: 10.5% +/-0.0% (% of correctly class. positive examples)
+Specificity: 97.8% +/-0.0% (% of correctly class. negative examples)
+Precision: 74.2% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 63.9% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.183 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.177 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+***********************************
+* Average train theory statistics *
+***********************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             23+/-4|              8+/-2|             31+/-6
+-----------|-------------------|-------------------|-------------------
+   Negative|            175+/-7|            312+/-7|           487+/-15
+-----------|-------------------|-------------------|-------------------
+ Totals    |           198+/-11|            320+/-9|           518+/-21
+
+Default accuracy: 61.8% +/-1.0%
+Classifier accuracy: 64.6% +/-1.0%
+Recall/Sensitivity: 11.6% +/-1.9% (% of correctly class. positive examples)
+Specificity: 97.4% +/-0.7% (% of correctly class. negative examples)
+Precision: 73.9% +/-2.3% (% of correctly predicted positive examples)
+CorPredNeg: 64.1% +/-1.1% (i.e. % of correctly predicted negative examples)
+F1-score: 0.199 +/-0.03 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.184 +/-0.01 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+**********************************
+* Average test theory statistics *
+**********************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|              2+/-1|              1+/-1|              4+/-2
+-----------|-------------------|-------------------|-------------------
+   Negative|             20+/-7|             34+/-6|            54+/-14
+-----------|-------------------|-------------------|-------------------
+ Totals    |             22+/-8|             36+/-7|            58+/-16
+
+Default accuracy: 63.7% +/-7.9%
+Classifier accuracy: 63.9% +/-10.6%
+Recall/Sensitivity: 11.7% +/-6.4% (% of correctly class. positive examples)
+Specificity: 96.4% +/-2.6% (% of correctly class. negative examples)
+Precision: 63.5% +/-30.3% (% of correctly predicted positive examples)
+CorPredNeg: 64.1% +/-11.1% (i.e. % of correctly predicted negative examples)
+F1-score: 0.191 +/-0.10 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.147 +/-0.14 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+Total memory used (in bytes): 21,369,416. Total cputime (in ms): 1,234
