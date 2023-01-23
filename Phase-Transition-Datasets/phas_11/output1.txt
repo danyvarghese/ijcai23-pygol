@@ -1,0 +1,45 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+200 examples loaded.
+100 positives, 100 negatives.
+400 examples loaded.
+200 positives, 200 negatives.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=12, PosScore=100 (100 new), NegScore=2 (2 new) Prec=98% (98% new)
+p(A):-
+   br0(A,B,C), br5(A,C,B), br4(A,C,D), br4(A,C,B), 
+   br0(A,B,D), br4(A,D,B), br4(A,B,C), br4(A,B,D), 
+   br1(A,C,B), br2(A,C,B), br2(A,B,D).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            100+/-0|              2+/-0|            102+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|              0+/-0|             98+/-0|             98+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            100+/-0|            100+/-0|            200+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 99% +/-0.0%
+Recall/Sensitivity: 100% +/-0.0% (% of correctly class. positive examples)
+Specificity: 98% +/-0.0% (% of correctly class. negative examples)
+Precision: 98% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 100% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.99 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.98 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
