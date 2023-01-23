@@ -1,0 +1,50 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+200 examples loaded.
+100 positives, 100 negatives.
+400 examples loaded.
+200 positives, 200 negatives.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=30, PosScore=100 (100 new), NegScore=5 (5 new) Prec=95.2% (95.2% new)
+p(A):-
+   br0(A,B,C), br7(A,C,B), br0(A,B,D), br1(A,D,E), 
+   br1(A,D,B), br1(A,C,E), br1(A,C,B), br1(A,B,F), 
+   br1(A,B,E), br2(A,D,E), br2(A,D,B), br2(A,C,E), 
+   br2(A,C,B), br2(A,B,F), br2(A,B,C), br3(A,D,F), 
+   br3(A,D,C), br3(A,C,F), br3(A,C,E), br3(A,B,C), 
+   br3(A,B,E), br4(A,D,E), br4(A,D,B), br4(A,B,F), 
+   br4(A,B,C), br5(A,D,E), br5(A,C,F), br5(A,B,E), 
+   br6(A,D,E).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            100+/-0|              5+/-0|            105+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|              0+/-0|             95+/-0|             95+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            100+/-0|            100+/-0|            200+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 97.5% +/-0.0%
+Recall/Sensitivity: 100% +/-0.0% (% of correctly class. positive examples)
+Specificity: 95% +/-0.0% (% of correctly class. negative examples)
+Precision: 95.2% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 100% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.976 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.951 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
