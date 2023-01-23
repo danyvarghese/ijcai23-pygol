@@ -1,0 +1,1142 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+GILPS settings
+
+Setting                                                Value
+
+maximum_singletons_in_clause                              10
+nodes                                                   1000
+maxneg                                                    30
+minpos                                                    20
+i                                                          1
+depth                                                     10
+evalfn                                              coverage
+clause_length                                              4
+theory_construction                              incremental
+cross_validation_folds                                    10
+verbose                                                    1
+star_default_recall                                       10
+srmg_heuristic                                   first_match
+splitvars                                              false
+sort_mode_declarations                                  true
+smart_coverage                                          true
+sample                                                   1.0
+remove_negatives                                       false
+recall_bound_on_evaluation                            (+inf)
+randomize_recall                                       false
+random_seed                                                7
+progolem_tournament_size                                   2
+progolem_stochastic_beam                               false
+progolem_refinement_operator                            armg
+progolem_negative_sample_per_iteration                     0
+progolem_mode                                         single
+progolem_iteration_sample_size                            20
+progolem_initial_pairs_sample                             20
+progolem_bypass_coverage_iters                             0
+progolem_beam_width                                        3
+print                                                      4
+positive_example_inflation                                 1
+output_theory_file                                 theory.pl
+noise                                                    0.5
+negative_reduction_measure                         precision
+negative_reduction_effort                             normal
+negative_example_inflation                                 1
+min_resolutions                                        10000
+minprec                                                    0
+minimum_singletons_in_clause                               0
+mincov                                                     0
+minacc                                                     0
+max_clauses_per_theory                                   inf
+max_uncompressive_examples                                20
+example_inflation                                          1
+evaluate_negatives_first                                true
+engine                                              progolem
+determinate_transformation                             false
+cut_transformation                                     false
+clause_evaluation                       smallest_predicate_domain
+bottom_early_stop                                      false
+298 examples loaded.
+162 positives, 136 negatives.
+Before neg reduction. Score:17 NumLits:21 NewPos:42, Neg:25 Prec:0.6269
+After neg reduction. Score:18 NumLits:3 NewPos:43, Neg:25 Prec:0.6324
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,10,C), ar_halide(A,D).
+
+Total 43 positive and 25 negative weights are covered by it.
+Still 119 positive and 136 negative weights.
+Before neg reduction. Score:25 NumLits:6 NewPos:39, Neg:14 Prec:0.7358
+After neg reduction. Score:25 NumLits:4 NewPos:39, Neg:14 Prec:0.7358
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), has_property(A,cytogen_ca,p), atm(A,D,n,32,E).
+
+Total 43 positive and 14 negative weights are covered by it.
+Still 80 positive and 136 negative weights.
+Before neg reduction. Score:1 NumLits:25 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:9 NewPos:8, Neg:4 Prec:0.6667
+After neg reduction. Score:4 NumLits:4 NewPos:8, Neg:4 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:7 NewPos:5, Neg:2 Prec:0.7143
+After neg reduction. Score:3 NumLits:4 NewPos:5, Neg:2 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:4 NewPos:17, Neg:9 Prec:0.6538
+After neg reduction. Score:8 NumLits:3 NewPos:17, Neg:9 Prec:0.6538
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:2 NewPos:18, Neg:10 Prec:0.6429
+After neg reduction. Score:8 NumLits:2 NewPos:18, Neg:10 Prec:0.6429
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:14 NewPos:8, Neg:4 Prec:0.6667
+After neg reduction. Score:4 NumLits:5 NewPos:8, Neg:4 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:16 NewPos:8, Neg:4 Prec:0.6667
+After neg reduction. Score:4 NumLits:4 NewPos:8, Neg:4 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:15 NewPos:5, Neg:3 Prec:0.625
+After neg reduction. Score:2 NumLits:4 NewPos:5, Neg:3 Prec:0.625
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:9 NumLits:7 NewPos:10, Neg:1 Prec:0.9091
+After neg reduction. Score:11 NumLits:2 NewPos:12, Neg:1 Prec:0.9231
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:25 NewPos:3, Neg:2 Prec:0.6
+After neg reduction. Score:1 NumLits:6 NewPos:3, Neg:2 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:2 NewPos:18, Neg:10 Prec:0.6429
+After neg reduction. Score:8 NumLits:2 NewPos:18, Neg:10 Prec:0.6429
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:2 NewPos:18, Neg:10 Prec:0.6429
+After neg reduction. Score:8 NumLits:2 NewPos:18, Neg:10 Prec:0.6429
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:12 NewPos:5, Neg:4 Prec:0.5556
+After neg reduction. Score:1 NumLits:4 NewPos:5, Neg:4 Prec:0.5556
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:8 NewPos:9, Neg:6 Prec:0.6
+After neg reduction. Score:3 NumLits:4 NewPos:9, Neg:6 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:19 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:10 NewPos:7, Neg:5 Prec:0.5833
+After neg reduction. Score:2 NumLits:6 NewPos:7, Neg:5 Prec:0.5833
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:12 NewPos:6, Neg:4 Prec:0.6
+After neg reduction. Score:2 NumLits:6 NewPos:6, Neg:4 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:5 NewPos:17, Neg:9 Prec:0.6538
+After neg reduction. Score:8 NumLits:3 NewPos:17, Neg:9 Prec:0.6538
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+
+Before neg reduction. Score:25 NumLits:15 NewPos:54, Neg:29 Prec:0.6506
+After neg reduction. Score:25 NumLits:3 NewPos:54, Neg:29 Prec:0.6506
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), ar_halide(A,D).
+
+Total 54 positive and 29 negative weights are covered by it.
+Still 99 positive and 123 negative weights.
+Before neg reduction. Score:27 NumLits:5 NewPos:56, Neg:29 Prec:0.6588
+After neg reduction. Score:27 NumLits:3 NewPos:56, Neg:29 Prec:0.6588
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), has_property(A,cytogen_ca,p).
+
+Total 74 positive and 29 negative weights are covered by it.
+Still 43 positive and 123 negative weights.
+Before neg reduction. Score:1 NumLits:25 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:7 NewPos:5, Neg:2 Prec:0.7143
+After neg reduction. Score:3 NumLits:4 NewPos:5, Neg:2 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:9 NewPos:3, Neg:2 Prec:0.6
+After neg reduction. Score:1 NumLits:6 NewPos:3, Neg:2 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:15 NewPos:4, Neg:2 Prec:0.6667
+After neg reduction. Score:2 NumLits:4 NewPos:4, Neg:2 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:30 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:19 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:13 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:3 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:17 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:3 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:3 NewPos:9, Neg:3 Prec:0.75
+After neg reduction. Score:6 NumLits:3 NewPos:9, Neg:3 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:18 NewPos:4, Neg:1 Prec:0.8
+After neg reduction. Score:3 NumLits:5 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:3 NewPos:9, Neg:3 Prec:0.75
+After neg reduction. Score:6 NumLits:3 NewPos:9, Neg:3 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:12 NewPos:4, Neg:1 Prec:0.8
+After neg reduction. Score:3 NumLits:4 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:10 NewPos:8, Neg:1 Prec:0.8889
+After neg reduction. Score:7 NumLits:5 NewPos:8, Neg:1 Prec:0.8889
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:14 NewPos:11, Neg:6 Prec:0.6471
+After neg reduction. Score:5 NumLits:4 NewPos:11, Neg:6 Prec:0.6471
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:21 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:19 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:3 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:5 NewPos:11, Neg:3 Prec:0.7857
+After neg reduction. Score:8 NumLits:4 NewPos:11, Neg:3 Prec:0.7857
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:15 NewPos:10, Neg:3 Prec:0.7692
+After neg reduction. Score:8 NumLits:4 NewPos:11, Neg:3 Prec:0.7857
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:3 NewPos:9, Neg:3 Prec:0.75
+After neg reduction. Score:6 NumLits:3 NewPos:9, Neg:3 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 1/10.
+Before neg reduction. Score:17 NumLits:15 NewPos:46, Neg:29 Prec:0.6133
+After neg reduction. Score:17 NumLits:3 NewPos:46, Neg:29 Prec:0.6133
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), ar_halide(A,D).
+
+Total 46 positive and 29 negative weights are covered by it.
+Still 94 positive and 122 negative weights.
+Before neg reduction. Score:19 NumLits:4 NewPos:24, Neg:5 Prec:0.8276
+After neg reduction. Score:19 NumLits:4 NewPos:24, Neg:5 Prec:0.8276
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,o,40,C), has_property(A,cytogen_sce,p), has_property(A,cytogen_ca,p).
+
+Total 27 positive and 5 negative weights are covered by it.
+Still 70 positive and 122 negative weights.
+Before neg reduction. Score:6 NumLits:8 NewPos:33, Neg:27 Prec:0.55
+After neg reduction. Score:6 NumLits:3 NewPos:33, Neg:27 Prec:0.55
+The following highest scoring hypothesis was generated:
+active(A):-
+   six_ring(A,B), ames(A).
+
+Total 57 positive and 27 negative weights are covered by it.
+Still 36 positive and 122 negative weights.
+Before neg reduction. Score:4 NumLits:10 NewPos:6, Neg:2 Prec:0.75
+After neg reduction. Score:4 NumLits:5 NewPos:6, Neg:2 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:9 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:5 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:15 NewPos:5, Neg:1 Prec:0.8333
+After neg reduction. Score:4 NumLits:4 NewPos:5, Neg:1 Prec:0.8333
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:19 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:1 NumLits:4 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:12 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:5 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:10 NewPos:6, Neg:4 Prec:0.6
+After neg reduction. Score:2 NumLits:6 NewPos:6, Neg:4 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:19 NewPos:5, Neg:1 Prec:0.8333
+After neg reduction. Score:4 NumLits:4 NewPos:5, Neg:1 Prec:0.8333
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:13 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:5 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:7 NewPos:6, Neg:1 Prec:0.8571
+After neg reduction. Score:5 NumLits:3 NewPos:6, Neg:1 Prec:0.8571
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:9 NewPos:6, Neg:2 Prec:0.75
+After neg reduction. Score:4 NumLits:5 NewPos:6, Neg:2 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:16 NewPos:4, Neg:3 Prec:0.5714
+After neg reduction. Score:1 NumLits:6 NewPos:4, Neg:3 Prec:0.5714
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:21 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:10 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:1 NumLits:2 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:19 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:4 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:5 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:5 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:8 NewPos:4, Neg:2 Prec:0.6667
+After neg reduction. Score:2 NumLits:5 NewPos:4, Neg:2 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 2/10.
+Before neg reduction. Score:35 NumLits:3 NewPos:60, Neg:25 Prec:0.7059
+After neg reduction. Score:35 NumLits:3 NewPos:60, Neg:25 Prec:0.7059
+The following highest scoring hypothesis was generated:
+active(A):-
+   has_property(A,cytogen_ca,p), has_property(A,cytogen_sce,p).
+
+Total 60 positive and 25 negative weights are covered by it.
+Still 80 positive and 112 negative weights.
+Before neg reduction. Score:1 NumLits:25 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:16 NewPos:20, Neg:14 Prec:0.5882
+After neg reduction. Score:6 NumLits:2 NewPos:20, Neg:14 Prec:0.5882
+The following highest scoring hypothesis was generated:
+active(A):-
+   ind(A,halide10,B).
+
+Total 28 positive and 14 negative weights are covered by it.
+Still 59 positive and 112 negative weights.
+Before neg reduction. Score:3 NumLits:8 NewPos:4, Neg:1 Prec:0.8
+After neg reduction. Score:3 NumLits:4 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:2 NewPos:13, Neg:5 Prec:0.7222
+After neg reduction. Score:8 NumLits:2 NewPos:13, Neg:5 Prec:0.7222
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:2 NewPos:13, Neg:5 Prec:0.7222
+After neg reduction. Score:8 NumLits:2 NewPos:13, Neg:5 Prec:0.7222
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:4 NewPos:13, Neg:10 Prec:0.5652
+After neg reduction. Score:3 NumLits:3 NewPos:13, Neg:10 Prec:0.5652
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:15 NewPos:5, Neg:2 Prec:0.7143
+After neg reduction. Score:3 NumLits:4 NewPos:5, Neg:2 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:25 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:3 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:23 NewPos:8, Neg:4 Prec:0.6667
+After neg reduction. Score:4 NumLits:5 NewPos:8, Neg:4 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:9 NewPos:9, Neg:5 Prec:0.6429
+After neg reduction. Score:4 NumLits:6 NewPos:9, Neg:5 Prec:0.6429
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:2 NewPos:13, Neg:5 Prec:0.7222
+After neg reduction. Score:8 NumLits:2 NewPos:13, Neg:5 Prec:0.7222
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:17 NewPos:13, Neg:9 Prec:0.5909
+After neg reduction. Score:4 NumLits:5 NewPos:13, Neg:9 Prec:0.5909
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:14 NewPos:12, Neg:7 Prec:0.6316
+After neg reduction. Score:5 NumLits:6 NewPos:12, Neg:7 Prec:0.6316
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:13 NewPos:4, Neg:2 Prec:0.6667
+After neg reduction. Score:2 NumLits:5 NewPos:4, Neg:2 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:9 NewPos:10, Neg:5 Prec:0.6667
+After neg reduction. Score:5 NumLits:4 NewPos:10, Neg:5 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:13 NewPos:13, Neg:8 Prec:0.619
+After neg reduction. Score:5 NumLits:5 NewPos:13, Neg:8 Prec:0.619
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:2 NewPos:13, Neg:5 Prec:0.7222
+After neg reduction. Score:8 NumLits:2 NewPos:13, Neg:5 Prec:0.7222
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:3 NewPos:11, Neg:3 Prec:0.7857
+After neg reduction. Score:8 NumLits:3 NewPos:11, Neg:3 Prec:0.7857
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:3 NewPos:13, Neg:10 Prec:0.5652
+After neg reduction. Score:3 NumLits:3 NewPos:13, Neg:10 Prec:0.5652
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:11 NewPos:13, Neg:9 Prec:0.5909
+After neg reduction. Score:4 NumLits:5 NewPos:13, Neg:9 Prec:0.5909
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 3/10.
+Before neg reduction. Score:17 NumLits:15 NewPos:47, Neg:30 Prec:0.6104
+After neg reduction. Score:17 NumLits:3 NewPos:47, Neg:30 Prec:0.6104
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), ar_halide(A,D).
+
+Total 47 positive and 30 negative weights are covered by it.
+Still 95 positive and 127 negative weights.
+Before neg reduction. Score:20 NumLits:6 NewPos:32, Neg:12 Prec:0.7273
+After neg reduction. Score:20 NumLits:4 NewPos:32, Neg:12 Prec:0.7273
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), has_property(A,cytogen_ca,p), atm(A,D,n,32,E).
+
+Total 40 positive and 12 negative weights are covered by it.
+Still 63 positive and 127 negative weights.
+Before neg reduction. Score:1 NumLits:25 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:9 NewPos:8, Neg:4 Prec:0.6667
+After neg reduction. Score:4 NumLits:4 NewPos:8, Neg:4 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:9 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:13 NewPos:8, Neg:5 Prec:0.6154
+After neg reduction. Score:3 NumLits:5 NewPos:8, Neg:5 Prec:0.6154
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:18 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:1 NumLits:5 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:9 NewPos:3, Neg:2 Prec:0.6
+After neg reduction. Score:1 NumLits:5 NewPos:3, Neg:2 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:14 NewPos:9, Neg:3 Prec:0.75
+After neg reduction. Score:6 NumLits:3 NewPos:9, Neg:3 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:17 NewPos:6, Neg:4 Prec:0.6
+After neg reduction. Score:2 NumLits:4 NewPos:6, Neg:4 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:19 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:10 NewPos:7, Neg:2 Prec:0.7778
+After neg reduction. Score:5 NumLits:4 NewPos:7, Neg:2 Prec:0.7778
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:11 NewPos:8, Neg:4 Prec:0.6667
+After neg reduction. Score:4 NumLits:4 NewPos:8, Neg:4 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:15 NewPos:9, Neg:3 Prec:0.75
+After neg reduction. Score:6 NumLits:3 NewPos:9, Neg:3 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:17 NewPos:4, Neg:1 Prec:0.8
+After neg reduction. Score:3 NumLits:5 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:8 NewPos:8, Neg:0 Prec:1
+After neg reduction. Score:9 NumLits:2 NewPos:9, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:7 NewPos:9, Neg:1 Prec:0.9
+After neg reduction. Score:8 NumLits:3 NewPos:9, Neg:1 Prec:0.9
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:7 NewPos:8, Neg:1 Prec:0.8889
+After neg reduction. Score:7 NumLits:3 NewPos:8, Neg:1 Prec:0.8889
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:7 NewPos:8, Neg:4 Prec:0.6667
+After neg reduction. Score:4 NumLits:4 NewPos:8, Neg:4 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:8 NewPos:11, Neg:8 Prec:0.5789
+After neg reduction. Score:3 NumLits:4 NewPos:11, Neg:8 Prec:0.5789
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 4/10.
+Before neg reduction. Score:26 NumLits:11 NewPos:56, Neg:30 Prec:0.6512
+After neg reduction. Score:26 NumLits:2 NewPos:56, Neg:30 Prec:0.6512
+The following highest scoring hypothesis was generated:
+active(A):-
+   ar_halide(A,B).
+
+Total 56 positive and 30 negative weights are covered by it.
+Still 87 positive and 119 negative weights.
+Before neg reduction. Score:14 NumLits:6 NewPos:21, Neg:7 Prec:0.75
+After neg reduction. Score:14 NumLits:4 NewPos:21, Neg:7 Prec:0.75
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), has_property(A,cytogen_ca,p), atm(A,D,o,40,E).
+
+Total 25 positive and 7 negative weights are covered by it.
+Still 66 positive and 119 negative weights.
+Before neg reduction. Score:5 NumLits:11 NewPos:20, Neg:15 Prec:0.5714
+After neg reduction. Score:5 NumLits:3 NewPos:20, Neg:15 Prec:0.5714
+The following highest scoring hypothesis was generated:
+active(A):-
+   amine(A,B), ames(A).
+
+Total 38 positive and 15 negative weights are covered by it.
+Still 46 positive and 119 negative weights.
+Before neg reduction. Score:3 NumLits:9 NewPos:7, Neg:4 Prec:0.6364
+After neg reduction. Score:3 NumLits:4 NewPos:7, Neg:4 Prec:0.6364
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:16 NewPos:7, Neg:3 Prec:0.7
+After neg reduction. Score:4 NumLits:4 NewPos:7, Neg:3 Prec:0.7
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:17 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:4 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:14 NewPos:6, Neg:1 Prec:0.8571
+After neg reduction. Score:5 NumLits:3 NewPos:6, Neg:1 Prec:0.8571
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:17 NewPos:7, Neg:4 Prec:0.6364
+After neg reduction. Score:3 NumLits:4 NewPos:7, Neg:4 Prec:0.6364
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:10 NewPos:4, Neg:2 Prec:0.6667
+After neg reduction. Score:2 NumLits:3 NewPos:4, Neg:2 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:10 NewPos:7, Neg:3 Prec:0.7
+After neg reduction. Score:4 NumLits:4 NewPos:7, Neg:3 Prec:0.7
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:12 NewPos:4, Neg:2 Prec:0.6667
+After neg reduction. Score:2 NumLits:4 NewPos:4, Neg:2 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:9 NumLits:7 NewPos:10, Neg:1 Prec:0.9091
+After neg reduction. Score:9 NumLits:2 NewPos:10, Neg:1 Prec:0.9091
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:7 NewPos:7, Neg:1 Prec:0.875
+After neg reduction. Score:6 NumLits:3 NewPos:7, Neg:1 Prec:0.875
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:4 NewPos:5, Neg:2 Prec:0.7143
+After neg reduction. Score:3 NumLits:3 NewPos:5, Neg:2 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:10 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:6 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:9 NumLits:6 NewPos:10, Neg:1 Prec:0.9091
+After neg reduction. Score:9 NumLits:2 NewPos:10, Neg:1 Prec:0.9091
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:9 NumLits:5 NewPos:10, Neg:1 Prec:0.9091
+After neg reduction. Score:9 NumLits:2 NewPos:10, Neg:1 Prec:0.9091
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:9 NumLits:7 NewPos:10, Neg:1 Prec:0.9091
+After neg reduction. Score:9 NumLits:2 NewPos:10, Neg:1 Prec:0.9091
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:19 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:4 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:14 NewPos:7, Neg:1 Prec:0.875
+After neg reduction. Score:6 NumLits:3 NewPos:7, Neg:1 Prec:0.875
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:8 NewPos:8, Neg:6 Prec:0.5714
+After neg reduction. Score:2 NumLits:5 NewPos:8, Neg:6 Prec:0.5714
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 5/10.
+Before neg reduction. Score:24 NumLits:15 NewPos:54, Neg:30 Prec:0.6429
+After neg reduction. Score:24 NumLits:3 NewPos:54, Neg:30 Prec:0.6429
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), ar_halide(A,D).
+
+Total 54 positive and 30 negative weights are covered by it.
+Still 98 positive and 128 negative weights.
+Before neg reduction. Score:22 NumLits:8 NewPos:49, Neg:27 Prec:0.6447
+After neg reduction. Score:22 NumLits:3 NewPos:49, Neg:27 Prec:0.6447
+The following highest scoring hypothesis was generated:
+active(A):-
+   six_ring(A,B), ames(A).
+
+Total 59 positive and 27 negative weights are covered by it.
+Still 48 positive and 128 negative weights.
+Before neg reduction. Score:5 NumLits:9 NewPos:8, Neg:3 Prec:0.7273
+After neg reduction. Score:5 NumLits:4 NewPos:8, Neg:3 Prec:0.7273
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:6 NewPos:4, Neg:2 Prec:0.6667
+After neg reduction. Score:2 NumLits:5 NewPos:4, Neg:2 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:14 NewPos:9, Neg:7 Prec:0.5625
+After neg reduction. Score:2 NumLits:4 NewPos:9, Neg:7 Prec:0.5625
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:9 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:5 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:18 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:5 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:14 NewPos:6, Neg:1 Prec:0.8571
+After neg reduction. Score:6 NumLits:3 NewPos:7, Neg:1 Prec:0.875
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:7 NewPos:5, Neg:0 Prec:1
+After neg reduction. Score:5 NumLits:4 NewPos:5, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:14 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:13 NewPos:6, Neg:1 Prec:0.8571
+After neg reduction. Score:5 NumLits:4 NewPos:6, Neg:1 Prec:0.8571
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:11 NewPos:8, Neg:3 Prec:0.7273
+After neg reduction. Score:5 NumLits:4 NewPos:8, Neg:3 Prec:0.7273
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:13 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:5 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:7 NewPos:8, Neg:1 Prec:0.8889
+After neg reduction. Score:7 NumLits:3 NewPos:8, Neg:1 Prec:0.8889
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:7 NewPos:8, Neg:3 Prec:0.7273
+After neg reduction. Score:5 NumLits:4 NewPos:8, Neg:3 Prec:0.7273
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:8 NewPos:9, Neg:7 Prec:0.5625
+After neg reduction. Score:2 NumLits:4 NewPos:9, Neg:7 Prec:0.5625
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:21 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:23 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 6/10.
+Before neg reduction. Score:24 NumLits:15 NewPos:54, Neg:30 Prec:0.6429
+After neg reduction. Score:24 NumLits:3 NewPos:54, Neg:30 Prec:0.6429
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), ar_halide(A,D).
+
+Total 54 positive and 30 negative weights are covered by it.
+Still 98 positive and 125 negative weights.
+Before neg reduction. Score:24 NumLits:3 NewPos:51, Neg:27 Prec:0.6538
+After neg reduction. Score:24 NumLits:3 NewPos:51, Neg:27 Prec:0.6538
+The following highest scoring hypothesis was generated:
+active(A):-
+   has_property(A,cytogen_ca,p), has_property(A,cytogen_sce,p).
+
+Total 68 positive and 27 negative weights are covered by it.
+Still 47 positive and 125 negative weights.
+Before neg reduction. Score:1 NumLits:25 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:15 NewPos:7, Neg:3 Prec:0.7
+After neg reduction. Score:4 NumLits:4 NewPos:7, Neg:3 Prec:0.7
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:6 NewPos:6, Neg:3 Prec:0.6667
+After neg reduction. Score:3 NumLits:3 NewPos:6, Neg:3 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:10 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:2 NumLits:5 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:15 NewPos:4, Neg:1 Prec:0.8
+After neg reduction. Score:3 NumLits:4 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:16 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:4 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:14 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:3 NumLits:4 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:10 NewPos:5, Neg:2 Prec:0.7143
+After neg reduction. Score:3 NumLits:4 NewPos:5, Neg:2 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:11 NewPos:6, Neg:4 Prec:0.6
+After neg reduction. Score:2 NumLits:4 NewPos:6, Neg:4 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:10 NewPos:6, Neg:3 Prec:0.6667
+After neg reduction. Score:3 NumLits:4 NewPos:6, Neg:3 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:17 NewPos:4, Neg:1 Prec:0.8
+After neg reduction. Score:3 NumLits:5 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:11 NewPos:5, Neg:1 Prec:0.8333
+After neg reduction. Score:4 NumLits:3 NewPos:5, Neg:1 Prec:0.8333
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:8 NewPos:5, Neg:3 Prec:0.625
+After neg reduction. Score:2 NumLits:3 NewPos:5, Neg:3 Prec:0.625
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:18 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:6 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:18 NewPos:7, Neg:1 Prec:0.875
+After neg reduction. Score:6 NumLits:5 NewPos:7, Neg:1 Prec:0.875
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:16 NewPos:9, Neg:4 Prec:0.6923
+After neg reduction. Score:5 NumLits:5 NewPos:9, Neg:4 Prec:0.6923
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:12 NewPos:4, Neg:0 Prec:1
+After neg reduction. Score:4 NumLits:3 NewPos:4, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:19 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:4 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 7/10.
+Before neg reduction. Score:28 NumLits:11 NewPos:57, Neg:29 Prec:0.6628
+After neg reduction. Score:28 NumLits:2 NewPos:57, Neg:29 Prec:0.6628
+The following highest scoring hypothesis was generated:
+active(A):-
+   ar_halide(A,B).
+
+Total 57 positive and 29 negative weights are covered by it.
+Still 90 positive and 119 negative weights.
+Before neg reduction. Score:21 NumLits:6 NewPos:34, Neg:13 Prec:0.7234
+After neg reduction. Score:21 NumLits:3 NewPos:34, Neg:13 Prec:0.7234
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,n,32,C), has_property(A,cytogen_ca,p).
+
+Total 41 positive and 13 negative weights are covered by it.
+Still 56 positive and 119 negative weights.
+Before neg reduction. Score:4 NumLits:9 NewPos:7, Neg:3 Prec:0.7
+After neg reduction. Score:4 NumLits:4 NewPos:7, Neg:3 Prec:0.7
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:17 NewPos:5, Neg:2 Prec:0.7143
+After neg reduction. Score:3 NumLits:4 NewPos:5, Neg:2 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:17 NewPos:8, Neg:5 Prec:0.6154
+After neg reduction. Score:3 NumLits:4 NewPos:8, Neg:5 Prec:0.6154
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:16 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:5 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:12 NewPos:11, Neg:5 Prec:0.6875
+After neg reduction. Score:6 NumLits:3 NewPos:11, Neg:5 Prec:0.6875
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:12 NewPos:5, Neg:2 Prec:0.7143
+After neg reduction. Score:3 NumLits:4 NewPos:5, Neg:2 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:11 NewPos:6, Neg:3 Prec:0.6667
+After neg reduction. Score:3 NumLits:4 NewPos:6, Neg:3 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:9 NewPos:11, Neg:5 Prec:0.6875
+After neg reduction. Score:6 NumLits:3 NewPos:11, Neg:5 Prec:0.6875
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:12 NewPos:6, Neg:3 Prec:0.6667
+After neg reduction. Score:3 NumLits:4 NewPos:6, Neg:3 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:11 NewPos:8, Neg:1 Prec:0.8889
+After neg reduction. Score:7 NumLits:3 NewPos:8, Neg:1 Prec:0.8889
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:5 NumLits:8 NewPos:6, Neg:1 Prec:0.8571
+After neg reduction. Score:5 NumLits:3 NewPos:6, Neg:1 Prec:0.8571
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:12 NewPos:4, Neg:1 Prec:0.8
+After neg reduction. Score:3 NumLits:3 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:10 NewPos:6, Neg:0 Prec:1
+After neg reduction. Score:6 NumLits:4 NewPos:6, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:7 NewPos:7, Neg:1 Prec:0.875
+After neg reduction. Score:7 NumLits:2 NewPos:8, Neg:1 Prec:0.8889
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:6 NumLits:14 NewPos:10, Neg:4 Prec:0.7143
+After neg reduction. Score:6 NumLits:4 NewPos:10, Neg:4 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:9 NewPos:8, Neg:1 Prec:0.8889
+After neg reduction. Score:7 NumLits:2 NewPos:8, Neg:1 Prec:0.8889
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:19 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:4 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:18 NewPos:4, Neg:1 Prec:0.8
+After neg reduction. Score:3 NumLits:5 NewPos:4, Neg:1 Prec:0.8
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 8/10.
+Before neg reduction. Score:15 NumLits:17 NewPos:40, Neg:25 Prec:0.6154
+After neg reduction. Score:15 NumLits:3 NewPos:40, Neg:25 Prec:0.6154
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,c,10,C), ar_halide(A,D).
+
+Total 40 positive and 25 negative weights are covered by it.
+Still 109 positive and 125 negative weights.
+Before neg reduction. Score:28 NumLits:2 NewPos:58, Neg:30 Prec:0.6591
+After neg reduction. Score:28 NumLits:2 NewPos:58, Neg:30 Prec:0.6591
+The following highest scoring hypothesis was generated:
+active(A):-
+   has_property(A,cytogen_ca,p).
+
+Total 71 positive and 30 negative weights are covered by it.
+Still 51 positive and 125 negative weights.
+Before neg reduction. Score:1 NumLits:25 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:4 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:7 NewPos:5, Neg:2 Prec:0.7143
+After neg reduction. Score:3 NumLits:4 NewPos:5, Neg:2 Prec:0.7143
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:3 NewPos:12, Neg:5 Prec:0.7059
+After neg reduction. Score:7 NumLits:3 NewPos:12, Neg:5 Prec:0.7059
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:3 NewPos:12, Neg:5 Prec:0.7059
+After neg reduction. Score:7 NumLits:3 NewPos:12, Neg:5 Prec:0.7059
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:19 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:6 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:16 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:5 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:8 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:3 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:25 NewPos:3, Neg:2 Prec:0.6
+After neg reduction. Score:1 NumLits:6 NewPos:3, Neg:2 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:2 NewPos:13, Neg:9 Prec:0.5909
+After neg reduction. Score:4 NumLits:2 NewPos:13, Neg:9 Prec:0.5909
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:15 NewPos:3, Neg:2 Prec:0.6
+After neg reduction. Score:1 NumLits:6 NewPos:3, Neg:2 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:16 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:5 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:19 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:2 NumLits:4 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:11 NewPos:4, Neg:0 Prec:1
+After neg reduction. Score:4 NumLits:4 NewPos:4, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:17 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:3 NumLits:3 NewPos:3, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:3 NewPos:12, Neg:5 Prec:0.7059
+After neg reduction. Score:7 NumLits:3 NewPos:12, Neg:5 Prec:0.7059
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:3 NumLits:13 NewPos:3, Neg:0 Prec:1
+After neg reduction. Score:4 NumLits:4 NewPos:4, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:3 NewPos:12, Neg:5 Prec:0.7059
+After neg reduction. Score:7 NumLits:3 NewPos:12, Neg:5 Prec:0.7059
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:10 NewPos:8, Neg:1 Prec:0.8889
+After neg reduction. Score:7 NumLits:5 NewPos:8, Neg:1 Prec:0.8889
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 9/10.
+Before neg reduction. Score:17 NumLits:15 NewPos:46, Neg:29 Prec:0.6133
+After neg reduction. Score:17 NumLits:3 NewPos:46, Neg:29 Prec:0.6133
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), ar_halide(A,D).
+
+Total 46 positive and 29 negative weights are covered by it.
+Still 94 positive and 124 negative weights.
+Before neg reduction. Score:17 NumLits:7 NewPos:21, Neg:4 Prec:0.84
+After neg reduction. Score:18 NumLits:4 NewPos:22, Neg:4 Prec:0.8462
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,o,40,C), has_property(A,cytogen_sce,p), has_property(A,cytogen_ca,p).
+
+Total 26 positive and 4 negative weights are covered by it.
+Still 72 positive and 124 negative weights.
+Before neg reduction. Score:7 NumLits:13 NewPos:20, Neg:13 Prec:0.6061
+After neg reduction. Score:7 NumLits:4 NewPos:20, Neg:13 Prec:0.6061
+The following highest scoring hypothesis was generated:
+active(A):-
+   atm(A,B,h,3,C), ind(A,di10,D), ind(A,amino,D).
+
+Total 30 positive and 13 negative weights are covered by it.
+Still 51 positive and 124 negative weights.
+Before neg reduction. Score:2 NumLits:12 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:5 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:6 NewPos:4, Neg:3 Prec:0.5714
+After neg reduction. Score:1 NumLits:5 NewPos:4, Neg:3 Prec:0.5714
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:16 NewPos:6, Neg:4 Prec:0.6
+After neg reduction. Score:2 NumLits:4 NewPos:6, Neg:4 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:16 NewPos:2, Neg:1 Prec:0.6667
+After neg reduction. Score:1 NumLits:5 NewPos:2, Neg:1 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:14 NewPos:7, Neg:3 Prec:0.7
+After neg reduction. Score:4 NumLits:3 NewPos:7, Neg:3 Prec:0.7
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:17 NewPos:6, Neg:4 Prec:0.6
+After neg reduction. Score:2 NumLits:4 NewPos:6, Neg:4 Prec:0.6
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:19 NewPos:2, Neg:0 Prec:1
+After neg reduction. Score:2 NumLits:4 NewPos:2, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:10 NewPos:4, Neg:2 Prec:0.6667
+After neg reduction. Score:2 NumLits:3 NewPos:4, Neg:2 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:4 NumLits:15 NewPos:7, Neg:3 Prec:0.7
+After neg reduction. Score:4 NumLits:3 NewPos:7, Neg:3 Prec:0.7
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:17 NewPos:6, Neg:5 Prec:0.5455
+After neg reduction. Score:1 NumLits:4 NewPos:6, Neg:5 Prec:0.5455
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:8 NewPos:8, Neg:1 Prec:0.8889
+After neg reduction. Score:8 NumLits:2 NewPos:9, Neg:1 Prec:0.9
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:4 NewPos:4, Neg:2 Prec:0.6667
+After neg reduction. Score:2 NumLits:3 NewPos:4, Neg:2 Prec:0.6667
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:2 NumLits:17 NewPos:3, Neg:1 Prec:0.75
+After neg reduction. Score:2 NumLits:5 NewPos:3, Neg:1 Prec:0.75
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:1 NumLits:21 NewPos:1, Neg:0 Prec:1
+After neg reduction. Score:1 NumLits:3 NewPos:1, Neg:0 Prec:1
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:8 NumLits:6 NewPos:9, Neg:1 Prec:0.9
+After neg reduction. Score:8 NumLits:2 NewPos:9, Neg:1 Prec:0.9
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Before neg reduction. Score:7 NumLits:6 NewPos:8, Neg:1 Prec:0.8889
+After neg reduction. Score:8 NumLits:2 NewPos:9, Neg:1 Prec:0.9
+Clause does not verify at least one constraint (minprec, minpos, cov...).
+Not added to theory.
+Theory constructed for fold 10/10.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/2:
+#Literals=3, PosScore=43 (43 new), NegScore=25 (25 new) Prec=63.2% (63.2% new)
+active(A):-
+   atm(A,B,c,10,C), ar_halide(A,D).
+
+Hypothesis 2/2:
+#Literals=4, PosScore=43 (39 new), NegScore=14 (13 new) Prec=75.4% (75% new)
+active(A):-
+   atm(A,B,h,3,C), has_property(A,cytogen_ca,p), atm(A,D,n,32,E).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             82+/-0|             38+/-0|            120+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|             80+/-0|             98+/-0|            178+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            162+/-0|            136+/-0|            298+/-0
+
+Default accuracy: 54.4% +/-0.0%
+Classifier accuracy: 60.4% +/-0.0%
+Recall/Sensitivity: 50.6% +/-0.0% (% of correctly class. positive examples)
+Specificity: 72.1% +/-0.0% (% of correctly class. negative examples)
+Precision: 68.3% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 55.1% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.582 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.23 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+***********************************
+* Average train theory statistics *
+***********************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            95+/-11|             46+/-6|           141+/-16
+-----------|-------------------|-------------------|-------------------
+   Negative|             50+/-8|             76+/-5|           127+/-13
+-----------|-------------------|-------------------|-------------------
+ Totals    |           146+/-18|           122+/-11|           268+/-30
+
+Default accuracy: 54.4% +/-1.0%
+Classifier accuracy: 64.1% +/-1.5%
+Recall/Sensitivity: 65.3% +/-5.9% (% of correctly class. positive examples)
+Specificity: 62.5% +/-4.2% (% of correctly class. negative examples)
+Precision: 67.5% +/-1.0% (% of correctly predicted positive examples)
+CorPredNeg: 60.5% +/-2.7% (i.e. % of correctly predicted negative examples)
+F1-score: 0.663 +/-0.03 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.28 +/-0.02 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+**********************************
+* Average test theory statistics *
+**********************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|              9+/-5|              6+/-1|             15+/-6
+-----------|-------------------|-------------------|-------------------
+   Negative|              7+/-2|              8+/-4|             14+/-6
+-----------|-------------------|-------------------|-------------------
+ Totals    |             16+/-7|             14+/-6|            30+/-12
+
+Default accuracy: 57.4% +/-5.9%
+Classifier accuracy: 54.5% +/-11.8%
+Recall/Sensitivity: 54.5% +/-15.8% (% of correctly class. positive examples)
+Specificity: 52.8% +/-13.3% (% of correctly class. negative examples)
+Precision: 57.2% +/-17.4% (% of correctly predicted positive examples)
+CorPredNeg: 50.1% +/-10.3% (i.e. % of correctly predicted negative examples)
+F1-score: 0.555 +/-0.16 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.0729 +/-0.23 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+Total memory used (in bytes): 21,369,464. Total cputime (in ms): 60,877
