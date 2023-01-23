@@ -1,0 +1,49 @@
+GILPS: General Inductive Logic Programming System
+
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+
+200 examples loaded.
+100 positives, 100 negatives.
+400 examples loaded.
+200 positives, 200 negatives.
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=26, PosScore=100 (100 new), NegScore=8 (8 new) Prec=92.6% (92.6% new)
+p(A):-
+   br0(A,B,C), br6(A,C,D), br6(A,D,B), br0(A,B,E), 
+   br6(A,E,C), br6(A,E,F), br6(A,B,C), br6(A,B,G), 
+   br1(A,E,F), br1(A,E,G), br1(A,C,F), br1(A,C,G), 
+   br1(A,B,F), br1(A,B,G), br2(A,E,G), br2(A,E,B), 
+   br2(A,C,G), br2(A,C,B), br3(A,C,B), br4(A,E,B), 
+   br4(A,C,G), br4(A,C,B), br5(A,E,G), br5(A,C,G), 
+   br6(A,D,G).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|            100+/-0|              8+/-0|            108+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|              0+/-0|             92+/-0|             92+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |            100+/-0|            100+/-0|            200+/-0
+
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 96% +/-0.0%
+Recall/Sensitivity: 100% +/-0.0% (% of correctly class. positive examples)
+Specificity: 92% +/-0.0% (% of correctly class. negative examples)
+Precision: 92.6% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 100% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.962 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.923 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
